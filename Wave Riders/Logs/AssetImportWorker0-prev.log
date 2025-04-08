@@ -15,7 +15,7 @@ C:/Users/Diego Arriaga/Documents/GitHub/RetroRider/Wave Riders
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62509
+50900
 Successfully changed project path to: C:/Users/Diego Arriaga/Documents/GitHub/RetroRider/Wave Riders
 C:/Users/Diego Arriaga/Documents/GitHub/RetroRider/Wave Riders
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/Diego Arriaga/Documents/GitHub/RetroRider/Wave Riders
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [50192] Host "[IP] 192.168.0.102 [Port] 0 [Flags] 2 [Guid] 615003342 [EditorId] 615003342 [Version] 1048832 [Id] WindowsEditor(7,Monster) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [42288] Host "[IP] 192.168.0.102 [Port] 0 [Flags] 2 [Guid] 3573886669 [EditorId] 3573886669 [Version] 1048832 [Id] WindowsEditor(7,Monster) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [50192] Host "[IP] 192.168.0.102 [Port] 0 [Flags] 2 [Guid] 615003342 [EditorId] 615003342 [Version] 1048832 [Id] WindowsEditor(7,Monster) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [42288] Host "[IP] 192.168.0.102 [Port] 0 [Flags] 2 [Guid] 3573886669 [EditorId] 3573886669 [Version] 1048832 [Id] WindowsEditor(7,Monster) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 31 workers.
-Refreshing native plugins compatible for Editor in 1.06 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.78 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.8f1 (b5eafc012955)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/Resources/UnitySubsystems
@@ -70,44 +70,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56224
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56380
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006108 seconds.
-- Loaded All Assemblies, in  0.234 seconds
+Registered in 0.006239 seconds.
+- Loaded All Assemblies, in  0.218 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.148 seconds
-Domain Reload Profiling: 380ms
-	BeginReloadAssembly (75ms)
+- Finished resetting the current domain, in  0.145 seconds
+Domain Reload Profiling: 361ms
+	BeginReloadAssembly (74ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (20ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (40ms)
-	LoadAllAssembliesAndSetupDomain (86ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (79ms)
 		LoadAssemblies (72ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (84ms)
-			TypeCache.Refresh (83ms)
-				TypeCache.ScanAssembly (75ms)
+		AnalyzeDomain (78ms)
+			TypeCache.Refresh (77ms)
+				TypeCache.ScanAssembly (69ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (148ms)
+	FinalizeReload (145ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (113ms)
+		SetupLoadedEditorAssemblies (111ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
+			InitializePlatformSupportModulesInManaged (6ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (1ms)
-			ProcessInitializeOnLoadAttributes (73ms)
-			ProcessInitializeOnLoadMethodAttributes (27ms)
+			ProcessInitializeOnLoadAttributes (71ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -115,51 +115,51 @@ Domain Reload Profiling: 380ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.261 seconds
-Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+- Loaded All Assemblies, in  0.250 seconds
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.253 seconds
-Domain Reload Profiling: 512ms
-	BeginReloadAssembly (97ms)
+- Finished resetting the current domain, in  0.245 seconds
+Domain Reload Profiling: 492ms
+	BeginReloadAssembly (95ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (18ms)
+		CreateAndSetChildDomain (17ms)
 	RebuildCommonClasses (19ms)
 	RebuildNativeTypeToScriptingClass (6ms)
 	initialDomainReloadingComplete (25ms)
-	LoadAllAssembliesAndSetupDomain (112ms)
-		LoadAssemblies (137ms)
+	LoadAllAssembliesAndSetupDomain (103ms)
+		LoadAssemblies (133ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (31ms)
-			TypeCache.Refresh (24ms)
-				TypeCache.ScanAssembly (20ms)
+		AnalyzeDomain (25ms)
+			TypeCache.Refresh (18ms)
+				TypeCache.ScanAssembly (15ms)
 			ScanForSourceGeneratedMonoScriptInfo (4ms)
 			ResolveRequiredComponents (2ms)
-	FinalizeReload (253ms)
+	FinalizeReload (245ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (170ms)
+		SetupLoadedEditorAssemblies (166ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (4ms)
 			SetLoadedEditorAssemblies (2ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (29ms)
-			ProcessInitializeOnLoadAttributes (117ms)
-			ProcessInitializeOnLoadMethodAttributes (11ms)
-			AfterProcessingInitializeOnLoad (7ms)
+			ProcessInitializeOnLoadAttributes (114ms)
+			ProcessInitializeOnLoadMethodAttributes (10ms)
+			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (4ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.62 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1229 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 29 unused Assets / (154.3 KB). Loaded Objects now: 1708.
-Memory consumption went from 78.3 MB to 78.2 MB.
-Total: 2.599700 ms (FindLiveObjects: 0.121400 ms CreateObjectMapping: 0.023100 ms MarkObjects: 2.340000 ms  DeleteObjects: 0.114300 ms)
+Unloading 29 unused Assets / (154.4 KB). Loaded Objects now: 1708.
+Memory consumption went from 78.3 MB to 78.1 MB.
+Total: 2.483500 ms (FindLiveObjects: 0.106700 ms CreateObjectMapping: 0.015700 ms MarkObjects: 2.256400 ms  DeleteObjects: 0.103400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
@@ -177,52 +177,203 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1016644.026875 seconds.
-  path: Assets/Levels/Level4 1.prefab
-  artifactKey: Guid(3c6bb1b3004e0694b9420e4aae0bbca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Levels/Level4 1.prefab using Guid(3c6bb1b3004e0694b9420e4aae0bbca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4505aa8050c919a70b0245ee05a6cb74') in 0.183612 seconds
+  Time since last request: 1061445.789997 seconds.
+  path: Assets/FX_Kandol_Pack/FX Fire II/Prefabs
+  artifactKey: Guid(6de3fcc4f9c7e604e88c5c030468a79a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FX_Kandol_Pack/FX Fire II/Prefabs using Guid(6de3fcc4f9c7e604e88c5c030468a79a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a66ef31e04f02d1dda32a8b5862c304') in 0.002093 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1222
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Levels/Level2 1.prefab
-  artifactKey: Guid(44371af1ac241d740ab19e7640fdcbc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Levels/Level2 1.prefab using Guid(44371af1ac241d740ab19e7640fdcbc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5eeb3e933acb7e4c4962eaf764049db') in 0.081483 seconds
+  Time since last request: 0.221651 seconds.
+  path: Assets/FX_Kandol_Pack/FX Fire II/Prefabs/Explosions
+  artifactKey: Guid(7056b5876c5b08e46aada43d738d13f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FX_Kandol_Pack/FX Fire II/Prefabs/Explosions using Guid(7056b5876c5b08e46aada43d738d13f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fdcc48486b6fdba40e6ed495ac8b81d') in 0.000404 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1512
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 14.720007 seconds.
-  path: Assets/Levels/Level2 1.prefab
-  artifactKey: Guid(44371af1ac241d740ab19e7640fdcbc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Levels/Level2 1.prefab using Guid(44371af1ac241d740ab19e7640fdcbc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52235550e9715738d857f6dcd64a0bd5') in 0.072029 seconds
+  Time since last request: 1.439333 seconds.
+  path: Assets/FX_Kandol_Pack/FX Fire II/Materials/fx_fire_n.mat
+  artifactKey: Guid(9acbe312ef2429044916eda3222a4779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FX_Kandol_Pack/FX Fire II/Materials/fx_fire_n.mat using Guid(9acbe312ef2429044916eda3222a4779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a6dad3e5476eae5f532684e18a3db71') in 0.065249 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1522
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Levels/Level4 1.prefab
-  artifactKey: Guid(3c6bb1b3004e0694b9420e4aae0bbca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Levels/Level4 1.prefab using Guid(3c6bb1b3004e0694b9420e4aae0bbca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9e1e9aa7d42d291bd8d2b81148c6011') in 0.059690 seconds
+  Time since last request: 0.976100 seconds.
+  path: Assets/FX_Kandol_Pack/FX Fire II/Materials/fx_fire_ball_b.mat
+  artifactKey: Guid(64a2e8ff484e59d478225f457011a21a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FX_Kandol_Pack/FX Fire II/Materials/fx_fire_ball_b.mat using Guid(64a2e8ff484e59d478225f457011a21a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9736a104b887c49d4bf0b186454b4970') in 0.005818 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1232
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 7.266428 seconds.
-  path: Assets/Levels/Level2 1.prefab
-  artifactKey: Guid(44371af1ac241d740ab19e7640fdcbc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Levels/Level2 1.prefab using Guid(44371af1ac241d740ab19e7640fdcbc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a98c3abf7afbdc0f9069de529e61aef9') in 0.071052 seconds
+  Time since last request: 0.511382 seconds.
+  path: Assets/FX_Kandol_Pack/FX Fire II/Materials/fx_fire_e15.mat
+  artifactKey: Guid(5c26150eb818f49449d1668455b5bd1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FX_Kandol_Pack/FX Fire II/Materials/fx_fire_e15.mat using Guid(5c26150eb818f49449d1668455b5bd1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75fcb296c2bff757cde652841bdac42b') in 0.005120 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1522
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Levels/MainLevel.prefab
-  artifactKey: Guid(3c8d3961916ff574796a5db1ee7d3356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Levels/MainLevel.prefab using Guid(3c8d3961916ff574796a5db1ee7d3356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43b497d7129bed7ac65021460849d79c') in 0.008162 seconds
+  Time since last request: 1.310540 seconds.
+  path: Assets/FX_Kandol_Pack/FX Fire II/Materials/fx_fire_q.mat
+  artifactKey: Guid(f05ddeed5153a2a409764e81cfe8a070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FX_Kandol_Pack/FX Fire II/Materials/fx_fire_q.mat using Guid(f05ddeed5153a2a409764e81cfe8a070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51defd3a1887df47fab7448e5e689c95') in 0.005100 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 38
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3.198180 seconds.
+  path: Assets/FX_Kandol_Pack/FX Fire II/Scenes
+  artifactKey: Guid(f4ca70d9ced42de408ccac06cdf1950d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FX_Kandol_Pack/FX Fire II/Scenes using Guid(f4ca70d9ced42de408ccac06cdf1950d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '745a6b0ad2beb2ff731a9f472f96c275') in 0.000597 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.703681 seconds.
+  path: Assets/FX_Kandol_Pack/FX Fire II/Scenes/FX Fire II.unity
+  artifactKey: Guid(31e17dd90b112b24abf94082f97d65a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FX_Kandol_Pack/FX Fire II/Scenes/FX Fire II.unity using Guid(31e17dd90b112b24abf94082f97d65a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14c35d090cde3234d60e96a8d65f3e62') in 0.000594 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.214 seconds
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.333 seconds
+Domain Reload Profiling: 545ms
+	BeginReloadAssembly (95ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (17ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (73ms)
+		LoadAssemblies (119ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (5ms)
+			TypeCache.Refresh (2ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (334ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (193ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (34ms)
+			ProcessInitializeOnLoadAttributes (128ms)
+			ProcessInitializeOnLoadMethodAttributes (13ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1209 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7 unused Assets / (126.5 KB). Loaded Objects now: 1764.
+Memory consumption went from 78.1 MB to 77.9 MB.
+Total: 2.163200 ms (FindLiveObjects: 0.092600 ms CreateObjectMapping: 0.022800 ms MarkObjects: 1.983000 ms  DeleteObjects: 0.064400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 8.137806 seconds.
+  path: Assets/FX_Kandol_Pack/FX Fire II
+  artifactKey: Guid(34b6894d9c531964cacd438cc2f9e929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FX_Kandol_Pack/FX Fire II using Guid(34b6894d9c531964cacd438cc2f9e929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da20fedd7a3a293c20da8615a461294d') in 0.001944 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 5.699181 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20d30cd9c08bcf91338c60c664c569a0') in 0.000517 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.796738 seconds.
+  path: Assets/FX_Kandol_Pack/FX Fire II/Materials/fx_fire_b09.mat
+  artifactKey: Guid(4d1f8be760ba03e43879342eace137fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FX_Kandol_Pack/FX Fire II/Materials/fx_fire_b09.mat using Guid(4d1f8be760ba03e43879342eace137fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bae8f69d2b6c44f3c7b5c3299e1dbde') in 0.038596 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/FX_Kandol_Pack/FX Fire II/Materials/fx_fire_p.mat
+  artifactKey: Guid(e3a69a726bb0e994cb14a5a3e65a8ba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FX_Kandol_Pack/FX Fire II/Materials/fx_fire_p.mat using Guid(e3a69a726bb0e994cb14a5a3e65a8ba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c77e28971f4a477b6241622772e6ada') in 0.007012 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/FX_Kandol_Pack/FX Fire II/Materials/x_fire_h30.mat
+  artifactKey: Guid(dfed3a52f9ea6ae46b8b2e92697f07d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FX_Kandol_Pack/FX Fire II/Materials/x_fire_h30.mat using Guid(dfed3a52f9ea6ae46b8b2e92697f07d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '204ab4ef3719b47699fc1020edbb53d6') in 0.005965 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/FX_Kandol_Pack/FX Fire II/Materials/fx_fire_c_b.mat
+  artifactKey: Guid(5d3f1d0a66dc37a4da56a457ed955634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FX_Kandol_Pack/FX Fire II/Materials/fx_fire_c_b.mat using Guid(5d3f1d0a66dc37a4da56a457ed955634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aa5453f49bc01d7480d62860fb55fb8') in 0.005973 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/FX_Kandol_Pack/FX Fire II/Materials/fx_fire_d.mat
+  artifactKey: Guid(c5c9458c8e9796e4ca6084df7984ef52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FX_Kandol_Pack/FX Fire II/Materials/fx_fire_d.mat using Guid(c5c9458c8e9796e4ca6084df7984ef52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '745dedb59c616d6731fdf498825b3e35') in 0.006258 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/FX_Kandol_Pack/FX Fire II/Materials/fx_fire_m.mat
+  artifactKey: Guid(7aa0cd493d22ddd49be919f7d5dab0a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FX_Kandol_Pack/FX Fire II/Materials/fx_fire_m.mat using Guid(7aa0cd493d22ddd49be919f7d5dab0a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30af6ba54e2106d16234ecbb392f8d67') in 0.005509 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/FX_Kandol_Pack/FX Fire II/Materials/fx_fire_d14.mat
+  artifactKey: Guid(3e57f63bae481ce4b93a49de0c5e5612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FX_Kandol_Pack/FX Fire II/Materials/fx_fire_d14.mat using Guid(3e57f63bae481ce4b93a49de0c5e5612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd14640aa2e3102eeb8d4ee6b0986684d') in 0.005560 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
 AssetImportWorker is now disconnected from the server
