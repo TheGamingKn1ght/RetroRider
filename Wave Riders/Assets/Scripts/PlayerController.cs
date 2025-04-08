@@ -10,6 +10,7 @@ public class PlayerController : MonoBehaviour, IChannel
     Vector3 newPos;
     public bool boostActive = false;
     [SerializeField] public Transform orientationCam;
+    public float boostMultiplier = 1f;
 
     [SerializeField] private float lerpSpeed = 0.5f;
     [SerializeField] public int moveSpeed = 2;
@@ -44,10 +45,10 @@ public class PlayerController : MonoBehaviour, IChannel
         //Get player position and lock it horizontally to the map
         CalculateTimePassed();
 
-        Vector3 movement;
-        movement = orientationCam.transform.forward * moveSpeed * GetTimeMultiplier();
-        movement.y = rb.velocity.y;
-        rb.velocity = movement;
+            Vector3 movement = orientationCam.transform.forward * moveSpeed * GetTimeMultiplier() * boostMultiplier;
+            movement.y = rb.velocity.y;
+            rb.velocity = movement;
+        
 
 
         float tempF = Mathf.Lerp(rb.position.x, playerPos.x, lerpSpeed);

@@ -12,7 +12,7 @@ public class SpeedBoost : MonoBehaviour
 
     private void Start()
     {
-        boostPercent = (100 + boostVal) / 100;
+        boostPercent =  1f + (boostVal / 1000f);
     }
 
     private void OnTriggerEnter(Collider other)
@@ -25,8 +25,8 @@ public class SpeedBoost : MonoBehaviour
             playerCollider = other;
             Vector3 playerForward = other.GetComponentInParent<PlayerController>().orientationCam.transform.forward;
             OriginalPlayerForwardVelocity = other.GetComponentInParent<Rigidbody>().velocity;
-            other.GetComponentInParent<Rigidbody>().AddForce(playerForward * boostPercent, ForceMode.Impulse);
-            
+            playerController.boostMultiplier = boostPercent;
+
             AudioManager.instance.PlaySFX("SpeedBoost");
             
             StartCoroutine(BoostTimer(playerController));
@@ -37,8 +37,8 @@ public class SpeedBoost : MonoBehaviour
     {
         Debug.Log("Boost Timer Started");
         yield return new WaitForSeconds(BoostDuration);
-        playerCollider.GetComponentInParent<Rigidbody>().velocity = OriginalPlayerForwardVelocity;
-        playerController.boostActive = false; // Deactivate the boost
+        playerController.boostMultiplier = 1f;
+        playerController.boostActive = false; 
         Debug.Log("Boost Ended");
     }
 }
