@@ -4,18 +4,27 @@ using UnityEngine;
 
 public class Laser : MonoBehaviour, IObstacle
 {
+    PlayerController playerController;
+
+
     // Start is called before the first frame update
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
         {
-            Collide();
+             playerController = other.GetComponentInParent<PlayerController>();
+
+                Collide();
+            
         }
     }
 
     public void Collide()
     {
-        HealthSystem.Singleton.applyDamage(50);
+        if (!playerController.boostActive)
+        {
+            HealthSystem.Singleton.applyDamage(50);
+        }
         AudioManager.instance.PlaySFX("Laser");
     }
 }

@@ -5,19 +5,28 @@ using UnityEngine;
 public class Vehicle : MonoBehaviour, IObstacle
 {
     private Vector3 playerForward;
+    PlayerController playerController;
+
+
     // Start is called before the first frame update
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
         {
+            playerController = other.GetComponentInParent<PlayerController>();
             playerForward = other.GetComponentInParent<PlayerController>().orientationCam.transform.forward;
-            Collide();
+
+                Collide();
+            
         }
     }
 
     public void Collide()
     {
-        HealthSystem.Singleton.applyDamage(15);
+        if (!playerController.boostActive)
+        {
+            HealthSystem.Singleton.applyDamage(15);
+        }
         AudioManager.instance.PlaySFX("CarCrash");
     }
 }

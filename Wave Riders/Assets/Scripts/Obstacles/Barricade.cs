@@ -6,18 +6,24 @@ public class Barricade : MonoBehaviour, IObstacle
 {
     [SerializeField] private GameObject BreakableBarricade;
     private Quaternion spawnQ;
+    PlayerController playerController;
+
     // Start is called before the first frame update
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
         {
+             playerController = other.GetComponentInParent<PlayerController>();
             Collide();
         }
     }
 
     public void Collide()
     {
-        HealthSystem.Singleton.applyDamage(20);
+        if (!playerController.boostActive)
+        {
+            HealthSystem.Singleton.applyDamage(20);
+        }
         Transform coords = this.gameObject.transform;
         //Transform Pivot is off center so must adjust transform spawn
         coords.position = new Vector3(coords.position.x, coords.position.y - (float)12.99, coords.position.z - (float)2.24);
