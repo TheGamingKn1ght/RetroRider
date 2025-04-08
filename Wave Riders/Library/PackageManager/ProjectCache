@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638797220375021503
-    m_Hash: 707674263
+      ticks: 638797244565920013
+    m_Hash: 1915507498
   m_LockFileStatus:
     m_FilePath: C:/Users/Diego Arriaga/Documents/GitHub/RetroRider/Wave Riders/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638797220375052816
-    m_Hash: 1196701218
+      ticks: 638797244565931753
+    m_Hash: 4227586826
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
