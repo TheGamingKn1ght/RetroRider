@@ -7,11 +7,11 @@
       "RelativeMoniker": "D:0:0:{15D93DB2-8C39-83E1-AC6F-B840E664EAB4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\level\\level1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{15D93DB2-8C39-83E1-AC6F-B840E664EAB4}|Assembly-CSharp.csproj|c:\\users\\diego arriaga\\documents\\github\\retrorider\\wave riders\\assets\\scripts\\level\\level5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{15D93DB2-8C39-83E1-AC6F-B840E664EAB4}|Assembly-CSharp.csproj|C:\\Users\\Diego Arriaga\\Documents\\GitHub\\RetroRider\\Wave Riders\\assets\\scripts\\level\\level5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{15D93DB2-8C39-83E1-AC6F-B840E664EAB4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\level\\level5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{15D93DB2-8C39-83E1-AC6F-B840E664EAB4}|Assembly-CSharp.csproj|c:\\users\\diego arriaga\\documents\\github\\retrorider\\wave riders\\assets\\scripts\\level\\level2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{15D93DB2-8C39-83E1-AC6F-B840E664EAB4}|Assembly-CSharp.csproj|C:\\Users\\Diego Arriaga\\Documents\\GitHub\\RetroRider\\Wave Riders\\assets\\scripts\\level\\level2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{15D93DB2-8C39-83E1-AC6F-B840E664EAB4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\level\\level2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -47,8 +47,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Level\\Level2.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T13:50:12.011Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-08T13:50:12.011Z"
             },
             {
               "$type": "Document",
@@ -60,8 +59,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Level\\Level5.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T13:48:04.065Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-08T13:48:04.065Z"
             }
           ]
         }

@@ -17,6 +17,8 @@ public class PlayerController : MonoBehaviour, IChannel
     [SerializeField] private int jumpMultiplier = 200;
     float time;
 
+    [SerializeField] public List<GameObject> DamageableObjects = new List<GameObject>();
+
     private void OnEnable()
     {
         InputManager.OnLeftInput += MoveLeft;
@@ -45,9 +47,9 @@ public class PlayerController : MonoBehaviour, IChannel
         //Get player position and lock it horizontally to the map
         CalculateTimePassed();
 
-            Vector3 movement = orientationCam.transform.forward * moveSpeed * GetTimeMultiplier() * boostMultiplier;
-            movement.y = rb.velocity.y;
-            rb.velocity = movement;
+        Vector3 movement = orientationCam.transform.forward * moveSpeed * GetTimeMultiplier() * boostMultiplier;
+        movement.y = rb.velocity.y;
+        rb.velocity = movement;
         
 
 

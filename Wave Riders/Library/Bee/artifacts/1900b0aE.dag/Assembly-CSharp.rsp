@@ -109,6 +109,7 @@
 -define:ENABLE_UNITY_COLLECTIONS_CHECKS
 -define:ENABLE_BURST_AOT
 -define:UNITY_TEAM_LICENSE
+-define:UNITY_PRO_LICENSE
 -define:ENABLE_CUSTOM_RENDER_TEXTURE
 -define:ENABLE_DIRECTOR
 -define:ENABLE_LOCALIZATION
@@ -354,10 +355,16 @@
 "Assets/Input/PlayerControls.cs"
 "Assets/Scripts/AudioManager.cs"
 "Assets/Scripts/Collectibles/JumpPowerUp.cs"
+"Assets/Scripts/DamageManager/DamageHandlerManager.cs"
+"Assets/Scripts/DamageManager/DamageManager1.cs"
+"Assets/Scripts/DamageManager/DamageManager2.cs"
+"Assets/Scripts/DamageManager/DamageManager3.cs"
+"Assets/Scripts/DamageManager/DamageManager4.cs"
 "Assets/Scripts/HealthBar.cs"
 "Assets/Scripts/HealthSystem.cs"
 "Assets/Scripts/HUD.cs"
 "Assets/Scripts/InputManager.cs"
+"Assets/Scripts/Interfaces/DamageHandler.cs"
 "Assets/Scripts/Interfaces/IChannel.cs"
 "Assets/Scripts/Interfaces/ICollectible.cs"
 "Assets/Scripts/Interfaces/ILevel.cs"
