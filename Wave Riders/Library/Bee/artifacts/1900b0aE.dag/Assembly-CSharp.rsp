@@ -355,6 +355,7 @@
 "Assets/Input/PlayerControls.cs"
 "Assets/Scripts/AudioManager.cs"
 "Assets/Scripts/Collectibles/JumpPowerUp.cs"
+"Assets/Scripts/Collectibles/ShieldPowerUp.cs"
 "Assets/Scripts/DamageManager/DamageHandlerManager.cs"
 "Assets/Scripts/DamageManager/DamageManager1.cs"
 "Assets/Scripts/DamageManager/DamageManager2.cs"
