@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2022.3/staging' branch; Version is '2022.3.8f1 (b5eafc012955) revision 11922172'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'en' Physical Memory: 31863 MB
+OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'en' Physical Memory: 31863 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -15,7 +15,7 @@ C:/Users/Diego Arriaga/Documents/GitHub/RetroRider/Wave Riders
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52641
+61774
 Successfully changed project path to: C:/Users/Diego Arriaga/Documents/GitHub/RetroRider/Wave Riders
 C:/Users/Diego Arriaga/Documents/GitHub/RetroRider/Wave Riders
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/Diego Arriaga/Documents/GitHub/RetroRider/Wave Riders
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [44056] Host "[IP] 192.168.0.102 [Port] 0 [Flags] 2 [Guid] 1555650804 [EditorId] 1555650804 [Version] 1048832 [Id] WindowsEditor(7,Monster) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [42636] Host "[IP] 192.168.0.102 [Port] 0 [Flags] 2 [Guid] 3874597619 [EditorId] 3874597619 [Version] 1048832 [Id] WindowsEditor(7,Monster) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [44056] Host "[IP] 192.168.0.102 [Port] 0 [Flags] 2 [Guid] 1555650804 [EditorId] 1555650804 [Version] 1048832 [Id] WindowsEditor(7,Monster) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [42636] Host "[IP] 192.168.0.102 [Port] 0 [Flags] 2 [Guid] 3874597619 [EditorId] 3874597619 [Version] 1048832 [Id] WindowsEditor(7,Monster) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 31 workers.
-Refreshing native plugins compatible for Editor in 3.86 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 3.72 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.8f1 (b5eafc012955)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/Resources/UnitySubsystems
@@ -70,44 +70,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56228
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56256
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005972 seconds.
-- Loaded All Assemblies, in  0.228 seconds
+Registered in 0.006399 seconds.
+- Loaded All Assemblies, in  0.219 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.149 seconds
-Domain Reload Profiling: 375ms
-	BeginReloadAssembly (77ms)
+- Finished resetting the current domain, in  0.153 seconds
+Domain Reload Profiling: 370ms
+	BeginReloadAssembly (68ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (0ms)
+		CreateAndSetChildDomain (1ms)
 	RebuildCommonClasses (20ms)
-	RebuildNativeTypeToScriptingClass (6ms)
+	RebuildNativeTypeToScriptingClass (7ms)
 	initialDomainReloadingComplete (39ms)
-	LoadAllAssembliesAndSetupDomain (85ms)
-		LoadAssemblies (74ms)
+	LoadAllAssembliesAndSetupDomain (82ms)
+		LoadAssemblies (66ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (83ms)
-			TypeCache.Refresh (82ms)
-				TypeCache.ScanAssembly (74ms)
+		AnalyzeDomain (81ms)
+			TypeCache.Refresh (79ms)
+				TypeCache.ScanAssembly (71ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (149ms)
+	FinalizeReload (154ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (113ms)
+		SetupLoadedEditorAssemblies (118ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (4ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (1ms)
-			ProcessInitializeOnLoadAttributes (74ms)
-			ProcessInitializeOnLoadMethodAttributes (27ms)
+			ProcessInitializeOnLoadAttributes (76ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -115,52 +115,82 @@ Domain Reload Profiling: 375ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.339 seconds
-Refreshing native plugins compatible for Editor in 1.56 ms, found 0 plugins.
+- Loaded All Assemblies, in  0.332 seconds
+Refreshing native plugins compatible for Editor in 1.49 ms, found 0 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.319 seconds
-Domain Reload Profiling: 655ms
-	BeginReloadAssembly (104ms)
+- Finished resetting the current domain, in  0.343 seconds
+Domain Reload Profiling: 672ms
+	BeginReloadAssembly (99ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (18ms)
-	RebuildCommonClasses (20ms)
-	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (28ms)
-	LoadAllAssembliesAndSetupDomain (178ms)
-		LoadAssemblies (180ms)
+		CreateAndSetChildDomain (17ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (171ms)
+		LoadAssemblies (167ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (58ms)
-			TypeCache.Refresh (43ms)
-				TypeCache.ScanAssembly (39ms)
+		AnalyzeDomain (60ms)
+			TypeCache.Refresh (45ms)
+				TypeCache.ScanAssembly (41ms)
 			ScanForSourceGeneratedMonoScriptInfo (9ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (320ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (343ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (229ms)
+		SetupLoadedEditorAssemblies (246ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (5ms)
 			SetLoadedEditorAssemblies (2ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (39ms)
-			ProcessInitializeOnLoadAttributes (133ms)
-			ProcessInitializeOnLoadMethodAttributes (43ms)
-			AfterProcessingInitializeOnLoad (8ms)
+			BeforeProcessingInitializeOnLoad (42ms)
+			ProcessInitializeOnLoadAttributes (143ms)
+			ProcessInitializeOnLoadMethodAttributes (47ms)
+			AfterProcessingInitializeOnLoad (7ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (4ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 1.62 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.61 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3189 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 63 unused Assets / (445.0 KB). Loaded Objects now: 3663.
-Memory consumption went from 160.7 MB to 160.3 MB.
-Total: 3.074600 ms (FindLiveObjects: 0.239300 ms CreateObjectMapping: 0.069700 ms MarkObjects: 2.571500 ms  DeleteObjects: 0.193500 ms)
+Unloading 3196 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 63 unused Assets / (445.4 KB). Loaded Objects now: 3671.
+Memory consumption went from 161.2 MB to 160.8 MB.
+Total: 2.642700 ms (FindLiveObjects: 0.246800 ms CreateObjectMapping: 0.045400 ms MarkObjects: 2.167600 ms  DeleteObjects: 0.182300 ms)
 
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 7464.710792 seconds.
+  path: Assets/Prefabs/Fire.prefab
+  artifactKey: Guid(7f0e13a57217e0844bf437406f588654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Fire.prefab using Guid(7f0e13a57217e0844bf437406f588654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6ed16c57ac0331b456c7bd7842e5ab4') in 0.183380 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.57 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4 unused Assets / (400.6 KB). Loaded Objects now: 3765.
+Memory consumption went from 91.1 MB to 90.7 MB.
+Total: 3.645900 ms (FindLiveObjects: 0.430500 ms CreateObjectMapping: 0.090000 ms MarkObjects: 2.999300 ms  DeleteObjects: 0.125000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
@@ -177,14 +207,1630 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1161032.581403 seconds.
-  path: Assets/Prefabs/BarricadeEmissive.prefab
-  artifactKey: Guid(a01af197b5788be468505cd82540eaa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/BarricadeEmissive.prefab using Guid(a01af197b5788be468505cd82540eaa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7395770eb7830e3d3a29618f51f40049') in 0.185825 seconds
+  Time since last request: 7.838332 seconds.
+  path: Assets/Prefabs/BlueBoost.prefab
+  artifactKey: Guid(cad68405af70098438399c3328c196ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BlueBoost.prefab using Guid(cad68405af70098438399c3328c196ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbc4be18c8bce76afc32db6d4f613042') in 0.011279 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 431
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 19.747085 seconds.
+  path: Assets/Prefabs/Deleorean.prefab
+  artifactKey: Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Deleorean.prefab using Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e5717b360e3b88c2ad650e552df913b') in 0.092034 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 530
+========================================================================
+Received Import Request.
+  Time since last request: 4.920585 seconds.
+  path: Assets/Prefabs/Deleorean.prefab
+  artifactKey: Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Deleorean.prefab using Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98a76ef6ce470e508c0d5a94a4bc976c') in 0.062097 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 530
+========================================================================
+Received Import Request.
+  Time since last request: 16.280107 seconds.
+  path: Assets/Prefabs/Deleorean.prefab
+  artifactKey: Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Deleorean.prefab using Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89dc194aececeea64d644a38bc0b2f83') in 0.052320 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 530
+========================================================================
+Received Import Request.
+  Time since last request: 3.366136 seconds.
+  path: Assets/Prefabs/Deleorean.prefab
+  artifactKey: Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Deleorean.prefab using Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3979ae0761287233d0ea08ef699a2d7f') in 0.049793 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 530
+========================================================================
+Received Import Request.
+  Time since last request: 3.964711 seconds.
+  path: Assets/Prefabs/Deleorean.prefab
+  artifactKey: Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Deleorean.prefab using Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a73f53d0c6950ba227f773ed579dd77e') in 0.048778 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 530
+========================================================================
+Received Import Request.
+  Time since last request: 7.337262 seconds.
+  path: Assets/Prefabs/Deleorean.prefab
+  artifactKey: Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Deleorean.prefab using Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '946716e9417fbf9fa2c6cadf2444f79f') in 0.079442 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 530
+========================================================================
+Received Import Request.
+  Time since last request: 4.346410 seconds.
+  path: Assets/Prefabs/Deleorean.prefab
+  artifactKey: Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Deleorean.prefab using Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acf6afc0c73982c91a1874fa60558511') in 0.042758 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 530
+========================================================================
+Received Import Request.
+  Time since last request: 4.775754 seconds.
+  path: Assets/Prefabs/Deleorean.prefab
+  artifactKey: Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Deleorean.prefab using Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a89e38d43abef765fc94d7d9d1d74bbe') in 0.044138 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 530
+========================================================================
+Received Import Request.
+  Time since last request: 10.412920 seconds.
+  path: Assets/Prefabs/Deleorean.prefab
+  artifactKey: Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Deleorean.prefab using Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c676bd431ab584d09b121c6cec035a73') in 0.043768 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 530
+========================================================================
+Received Import Request.
+  Time since last request: 6.584054 seconds.
+  path: Assets/Prefabs/Deleorean.prefab
+  artifactKey: Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Deleorean.prefab using Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7afd29689e8df0cdc29ca90a930b3b33') in 0.047788 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 530
+========================================================================
+Received Import Request.
+  Time since last request: 3.563161 seconds.
+  path: Assets/Prefabs/Deleorean.prefab
+  artifactKey: Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Deleorean.prefab using Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0d9f33f6d0f92ec7c888247f1437ace') in 0.043613 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 530
+========================================================================
+Received Import Request.
+  Time since last request: 7.986290 seconds.
+  path: Assets/Prefabs/Deleorean.prefab
+  artifactKey: Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Deleorean.prefab using Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b54ced944acb17f7ccadf00641a2590e') in 0.047394 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 530
+========================================================================
+Received Import Request.
+  Time since last request: 7.596341 seconds.
+  path: Assets/Prefabs/Deleorean.prefab
+  artifactKey: Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Deleorean.prefab using Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8be124166bd3b2dfc2b71851a67b694d') in 0.047785 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 530
+========================================================================
+Received Import Request.
+  Time since last request: 3.771760 seconds.
+  path: Assets/Prefabs/Deleorean.prefab
+  artifactKey: Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Deleorean.prefab using Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bdfcf36e473896ec7e6af9f0579f9a8') in 0.046101 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 530
+========================================================================
+Received Import Request.
+  Time since last request: 9.605764 seconds.
+  path: Assets/Prefabs/Deleorean.prefab
+  artifactKey: Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Deleorean.prefab using Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2eb90e61fbbd57fd52950a09f8d34c8') in 0.099665 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 530
+========================================================================
+Received Import Request.
+  Time since last request: 5.711672 seconds.
+  path: Assets/Prefabs/Deleorean.prefab
+  artifactKey: Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Deleorean.prefab using Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '747f5fe36bc17b2fc9a9396228536524') in 0.045819 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 530
+========================================================================
+Received Import Request.
+  Time since last request: 1.349956 seconds.
+  path: Assets/Prefabs/Deleorean.prefab
+  artifactKey: Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Deleorean.prefab using Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9721e18bfdc5da9380c27b0a4f320a3') in 0.044653 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 530
+========================================================================
+Received Import Request.
+  Time since last request: 2.959661 seconds.
+  path: Assets/Prefabs/Deleorean.prefab
+  artifactKey: Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Deleorean.prefab using Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '418f56da143c8abe178e3ff9ae48c818') in 0.045559 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 530
+========================================================================
+Received Import Request.
+  Time since last request: 7.170637 seconds.
+  path: Assets/Prefabs/Deleorean.prefab
+  artifactKey: Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Deleorean.prefab using Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c07b57d5dde803fa7988d234b87655b') in 0.045473 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 530
+========================================================================
+Received Import Request.
+  Time since last request: 1.155544 seconds.
+  path: Assets/Prefabs/Deleorean.prefab
+  artifactKey: Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Deleorean.prefab using Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb76036d9224384bc90bfac43cd2ebdb') in 0.044277 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 530
+========================================================================
+Received Import Request.
+  Time since last request: 5.174622 seconds.
+  path: Assets/Prefabs/Deleorean.prefab
+  artifactKey: Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Deleorean.prefab using Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '685d75ce30bd2f6579e6d2ccee29f968') in 0.046033 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 530
+========================================================================
+Received Import Request.
+  Time since last request: 4.758950 seconds.
+  path: Assets/Prefabs/Deleorean.prefab
+  artifactKey: Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Deleorean.prefab using Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bfea5004ac76d79068bda9ed1c9ad01') in 0.048689 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 530
+========================================================================
+Received Import Request.
+  Time since last request: 176.106018 seconds.
+  path: Assets/Prefabs/Deleorean.prefab
+  artifactKey: Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Deleorean.prefab using Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8de2ca2234939a1d9973cd440fe57770') in 0.064151 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 530
+========================================================================
+Received Import Request.
+  Time since last request: 8.010344 seconds.
+  path: Assets/Prefabs/Deleorean.prefab
+  artifactKey: Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Deleorean.prefab using Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a82b7d9a5b9cf82be15c5ca02c8bd4f1') in 0.050456 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 535
+========================================================================
+Received Import Request.
+  Time since last request: 3.369333 seconds.
+  path: Assets/Prefabs/Deleorean.prefab
+  artifactKey: Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Deleorean.prefab using Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b48756f9bc236353e5b1ce37ca3a523') in 0.048689 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 535
+========================================================================
+Received Import Request.
+  Time since last request: 2.149438 seconds.
+  path: Assets/Prefabs/Deleorean.prefab
+  artifactKey: Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Deleorean.prefab using Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea69120a55175c6110b3f5e6c7c898bf') in 0.048468 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 535
+========================================================================
+Received Import Request.
+  Time since last request: 3.772316 seconds.
+  path: Assets/Prefabs/Deleorean.prefab
+  artifactKey: Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Deleorean.prefab using Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd3fcea5d2652cbb6ca558c2acf24a10') in 0.045360 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 535
+========================================================================
+Received Import Request.
+  Time since last request: 1.155741 seconds.
+  path: Assets/Prefabs/Deleorean.prefab
+  artifactKey: Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Deleorean.prefab using Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37dc9f478967ff666bb2bb00d19ed6bf') in 0.047300 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 535
+========================================================================
+Received Import Request.
+  Time since last request: 4.981148 seconds.
+  path: Assets/Prefabs/Deleorean.prefab
+  artifactKey: Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Deleorean.prefab using Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78a67634e08b3f12c3d8ac2c9372a0de') in 0.046934 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 535
+========================================================================
+Received Import Request.
+  Time since last request: 12.375157 seconds.
+  path: Assets/Prefabs/Deleorean.prefab
+  artifactKey: Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Deleorean.prefab using Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad2bf2449d915e85d60ce9d0d4c7fccb') in 0.052964 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 535
+========================================================================
+Received Import Request.
+  Time since last request: 3.151509 seconds.
+  path: Assets/Prefabs/Deleorean.prefab
+  artifactKey: Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Deleorean.prefab using Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3400798ee308da28cfd673e4dbcace9a') in 0.049206 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 535
+========================================================================
+Received Import Request.
+  Time since last request: 4.569065 seconds.
+  path: Assets/Prefabs/Deleorean.prefab
+  artifactKey: Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Deleorean.prefab using Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '482602b0cb9ba46f98e5e8d20024b833') in 0.047428 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 535
+========================================================================
+Received Import Request.
+  Time since last request: 0.950894 seconds.
+  path: Assets/Prefabs/Deleorean.prefab
+  artifactKey: Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Deleorean.prefab using Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90b821591a33663ace93b332b9299b3f') in 0.048328 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 535
+========================================================================
+Received Import Request.
+  Time since last request: 3.567279 seconds.
+  path: Assets/Prefabs/Deleorean.prefab
+  artifactKey: Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Deleorean.prefab using Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a6b7fb29df880729cb377846b1b15e6') in 0.049154 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 535
+========================================================================
+Received Import Request.
+  Time since last request: 3.168311 seconds.
+  path: Assets/Prefabs/Deleorean.prefab
+  artifactKey: Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Deleorean.prefab using Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3715b9bc53a60dad488cc18f0aca9db3') in 0.048634 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 535
+========================================================================
+Received Import Request.
+  Time since last request: 5.170631 seconds.
+  path: Assets/Prefabs/Deleorean.prefab
+  artifactKey: Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Deleorean.prefab using Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a8329b054ed816e74ef7ae90a6fbf24') in 0.052605 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 535
+========================================================================
+Received Import Request.
+  Time since last request: 6.379800 seconds.
+  path: Assets/Prefabs/Deleorean.prefab
+  artifactKey: Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Deleorean.prefab using Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78f4f86f3ad47992a07646dfc26e2d08') in 0.116717 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 535
+========================================================================
+Received Import Request.
+  Time since last request: 1.356571 seconds.
+  path: Assets/Prefabs/Deleorean.prefab
+  artifactKey: Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Deleorean.prefab using Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b65c37bc1083e853b546b5f46ba82d5b') in 0.050016 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 535
+========================================================================
+Received Import Request.
+  Time since last request: 2.694517 seconds.
+  path: Assets/Prefabs/Deleorean.prefab
+  artifactKey: Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Deleorean.prefab using Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a59f9177490999a9523961ce30c4f082') in 0.054715 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 535
+========================================================================
+Received Import Request.
+  Time since last request: 7.380010 seconds.
+  path: Assets/Prefabs/Deleorean.prefab
+  artifactKey: Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Deleorean.prefab using Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd505e6168b71cbbf1a551bbc15dc86e') in 0.092745 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 535
+========================================================================
+Received Import Request.
+  Time since last request: 21.283241 seconds.
+  path: Assets/Prefabs/Deleorean.prefab
+  artifactKey: Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Deleorean.prefab using Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a0d98088b7ab6adaa32afbe6c20d8bc') in 0.068737 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 535
+========================================================================
+Received Import Request.
+  Time since last request: 13.613139 seconds.
+  path: Assets/Prefabs/Deleorean.prefab
+  artifactKey: Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Deleorean.prefab using Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72a92b374b87034b2a70eb81f0b9347c') in 0.052309 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 535
+========================================================================
+Received Import Request.
+  Time since last request: 3.553767 seconds.
+  path: Assets/Prefabs/Deleorean.prefab
+  artifactKey: Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Deleorean.prefab using Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '147c7d4a3aa4a92d803b3f1078403726') in 0.051893 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 535
+========================================================================
+Received Import Request.
+  Time since last request: 4.384361 seconds.
+  path: Assets/Prefabs/Deleorean.prefab
+  artifactKey: Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Deleorean.prefab using Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '941ea63dd9063b1e22d4f73d61a69eee') in 0.054961 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 535
+========================================================================
+Received Import Request.
+  Time since last request: 13.579180 seconds.
+  path: Assets/Prefabs/Deleorean.prefab
+  artifactKey: Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Deleorean.prefab using Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4de82b30ff37740a742fdf594c0232d2') in 0.055804 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 535
+========================================================================
+Received Import Request.
+  Time since last request: 2.970550 seconds.
+  path: Assets/Prefabs/Deleorean.prefab
+  artifactKey: Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Deleorean.prefab using Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '506c68f29971f5df1defd1714d5ff5d3') in 0.052538 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 535
+========================================================================
+Received Import Request.
+  Time since last request: 3.937682 seconds.
+  path: Assets/Prefabs/Deleorean.prefab
+  artifactKey: Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Deleorean.prefab using Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd403baf23b4fb26ef69b7ed3fe03b05d') in 0.052064 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 535
+========================================================================
+Received Import Request.
+  Time since last request: 2.599935 seconds.
+  path: Assets/Prefabs/Deleorean.prefab
+  artifactKey: Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Deleorean.prefab using Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab0c11d5fd697cd310310d4cf76ce0df') in 0.055246 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 540
+========================================================================
+Received Import Request.
+  Time since last request: 4.591014 seconds.
+  path: Assets/Prefabs/Deleorean.prefab
+  artifactKey: Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Deleorean.prefab using Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8276d4c1ce4998eedc9d51c15d0be659') in 0.052681 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 540
+========================================================================
+Received Import Request.
+  Time since last request: 3.365169 seconds.
+  path: Assets/Prefabs/Deleorean.prefab
+  artifactKey: Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Deleorean.prefab using Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa785f0f4377f9ccb34aeaaaf77d5ede') in 0.050625 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 540
+========================================================================
+Received Import Request.
+  Time since last request: 1.944132 seconds.
+  path: Assets/Prefabs/Deleorean.prefab
+  artifactKey: Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Deleorean.prefab using Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43eec7776aecb7e97632256c9b551972') in 0.047747 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 540
+========================================================================
+Received Import Request.
+  Time since last request: 3.176735 seconds.
+  path: Assets/Prefabs/Deleorean.prefab
+  artifactKey: Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Deleorean.prefab using Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7b686e9867748207478c94007276726') in 0.051674 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 540
+========================================================================
+Received Import Request.
+  Time since last request: 1.545164 seconds.
+  path: Assets/Prefabs/Deleorean.prefab
+  artifactKey: Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Deleorean.prefab using Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68551650ea880d0c28e53fba68d3da9d') in 0.054464 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 540
+========================================================================
+Received Import Request.
+  Time since last request: 6.187260 seconds.
+  path: Assets/Prefabs/Deleorean.prefab
+  artifactKey: Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Deleorean.prefab using Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2d2770526c428b7f8de2c8d9d37bed8') in 0.053419 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 540
+========================================================================
+Received Import Request.
+  Time since last request: 0.938846 seconds.
+  path: Assets/Prefabs/Deleorean.prefab
+  artifactKey: Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Deleorean.prefab using Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8c1f424a6238a5d9075b889c4d3d238') in 0.100643 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 540
+========================================================================
+Received Import Request.
+  Time since last request: 4.112341 seconds.
+  path: Assets/Prefabs/Deleorean.prefab
+  artifactKey: Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Deleorean.prefab using Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b16a0175e9aa21487f4e5cea6c1b4895') in 0.051432 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 540
+========================================================================
+Received Import Request.
+  Time since last request: 0.947474 seconds.
+  path: Assets/Prefabs/Deleorean.prefab
+  artifactKey: Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Deleorean.prefab using Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e763f8d826d39e7da7e6075e27aa2cbc') in 0.051967 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 540
+========================================================================
+Received Import Request.
+  Time since last request: 0.943868 seconds.
+  path: Assets/Prefabs/Deleorean.prefab
+  artifactKey: Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Deleorean.prefab using Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab44b634cd932658f0312d8fae2a2ed2') in 0.053053 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 540
+========================================================================
+Received Import Request.
+  Time since last request: 2.755191 seconds.
+  path: Assets/Prefabs/Deleorean.prefab
+  artifactKey: Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Deleorean.prefab using Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e95d4f1eeb6f19e56f6fdb64c89f098') in 0.054768 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 540
+========================================================================
+Received Import Request.
+  Time since last request: 4.982467 seconds.
+  path: Assets/Prefabs/Deleorean.prefab
+  artifactKey: Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Deleorean.prefab using Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0c4c63db81f41ca79775a15f2e4558e') in 0.055306 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 540
+========================================================================
+Received Import Request.
+  Time since last request: 0.947707 seconds.
+  path: Assets/Prefabs/Deleorean.prefab
+  artifactKey: Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Deleorean.prefab using Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e47ea863213045ed068b8aa8c6cb645a') in 0.052876 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 540
+========================================================================
+Received Import Request.
+  Time since last request: 16.247740 seconds.
+  path: Assets/Prefabs/Deleorean.prefab
+  artifactKey: Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Deleorean.prefab using Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '386492fc095c26ca084801e6ea185f75') in 0.053430 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 540
+========================================================================
+Received Import Request.
+  Time since last request: 0.940039 seconds.
+  path: Assets/Prefabs/Deleorean.prefab
+  artifactKey: Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Deleorean.prefab using Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc9784b432d80a7757b9c0cd9da20701') in 0.051540 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 540
+========================================================================
+Received Import Request.
+  Time since last request: 4.963462 seconds.
+  path: Assets/Prefabs/Deleorean.prefab
+  artifactKey: Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Deleorean.prefab using Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abb5a08b3a611c80f16920efa3befb89') in 0.055375 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 540
+========================================================================
+Received Import Request.
+  Time since last request: 2.564668 seconds.
+  path: Assets/Prefabs/Deleorean.prefab
+  artifactKey: Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Deleorean.prefab using Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0d423f35d1a6cba65187a319961ea36') in 0.050856 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 540
+========================================================================
+Received Import Request.
+  Time since last request: 3.560240 seconds.
+  path: Assets/Prefabs/Deleorean.prefab
+  artifactKey: Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Deleorean.prefab using Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37ed3eecdc67e50c2a92ca3d0e33ae0f') in 0.056602 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 540
+========================================================================
+Received Import Request.
+  Time since last request: 1.744511 seconds.
+  path: Assets/Prefabs/Deleorean.prefab
+  artifactKey: Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Deleorean.prefab using Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b25dcdb5c653a7da4c7a32f9472eb3f8') in 0.095796 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 540
+========================================================================
+Received Import Request.
+  Time since last request: 3.723297 seconds.
+  path: Assets/Prefabs/Deleorean.prefab
+  artifactKey: Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Deleorean.prefab using Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eb4ab6616c599014a415e6821fcf065') in 0.056077 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 540
+========================================================================
+Received Import Request.
+  Time since last request: 11.026024 seconds.
+  path: Assets/Prefabs/Deleorean.prefab
+  artifactKey: Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Deleorean.prefab using Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34667db01beb0dab0582c60616f166af') in 0.055776 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 540
+========================================================================
+Received Import Request.
+  Time since last request: 7.386932 seconds.
+  path: Assets/Prefabs/Deleorean.prefab
+  artifactKey: Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Deleorean.prefab using Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47003b684efc810f0d9cf0134e99f225') in 0.050773 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 540
+========================================================================
+Received Import Request.
+  Time since last request: 5.764858 seconds.
+  path: Assets/Prefabs/Deleorean.prefab
+  artifactKey: Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Deleorean.prefab using Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '997210149289db889cb66c7d041a05a1') in 0.051912 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 540
+========================================================================
+Received Import Request.
+  Time since last request: 1.950085 seconds.
+  path: Assets/Prefabs/Deleorean.prefab
+  artifactKey: Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Deleorean.prefab using Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbb4f394ff7621d93f63c7371390d735') in 0.054883 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 540
+========================================================================
+Received Import Request.
+  Time since last request: 3.956986 seconds.
+  path: Assets/Prefabs/Deleorean.prefab
+  artifactKey: Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Deleorean.prefab using Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e630c7aa1d16328c4ccd752d1281eab9') in 0.053729 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 540
+========================================================================
+Received Import Request.
+  Time since last request: 6.364948 seconds.
+  path: Assets/Prefabs/Deleorean.prefab
+  artifactKey: Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Deleorean.prefab using Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfca049f615e41b3df178d93c4fb8c07') in 0.055731 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 540
+========================================================================
+Received Import Request.
+  Time since last request: 14.201450 seconds.
+  path: Assets/Prefabs/Deleorean.prefab
+  artifactKey: Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Deleorean.prefab using Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2d7d2fc7a96bbe82b8edc5a3ebd628b') in 0.053152 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 540
+========================================================================
+Received Import Request.
+  Time since last request: 11.399562 seconds.
+  path: Assets/Prefabs/Deleorean.prefab
+  artifactKey: Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Deleorean.prefab using Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6bedafffeeb7f42b7ccdec8ccad4d06') in 0.053697 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 540
+========================================================================
+Received Import Request.
+  Time since last request: 18.028874 seconds.
+  path: Assets/Prefabs/Deleorean.prefab
+  artifactKey: Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Deleorean.prefab using Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e0b2dc40506385ba329e0f1e6c5f0b9') in 0.051602 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 540
+========================================================================
+Received Import Request.
+  Time since last request: 1.956838 seconds.
+  path: Assets/Prefabs/Deleorean.prefab
+  artifactKey: Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Deleorean.prefab using Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29937be60bb8ddc49c77ac3b4353d54b') in 0.051671 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 545
+========================================================================
+Received Import Request.
+  Time since last request: 5.577237 seconds.
+  path: Assets/Prefabs/Deleorean.prefab
+  artifactKey: Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Deleorean.prefab using Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29f7b12371877e636114aa6315acd666') in 0.052552 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 545
+========================================================================
+Received Import Request.
+  Time since last request: 1.345678 seconds.
+  path: Assets/Prefabs/Deleorean.prefab
+  artifactKey: Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Deleorean.prefab using Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af6575efee342e50cd0f39e699599b49') in 0.051739 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 545
+========================================================================
+Received Import Request.
+  Time since last request: 1.346403 seconds.
+  path: Assets/Prefabs/Deleorean.prefab
+  artifactKey: Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Deleorean.prefab using Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f785b45969147e9dcb25613c33ff349') in 0.052363 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 545
+========================================================================
+Received Import Request.
+  Time since last request: 1.142438 seconds.
+  path: Assets/Prefabs/Deleorean.prefab
+  artifactKey: Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Deleorean.prefab using Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a007f12b88bfff22349e9fed7ef9528') in 0.052903 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 545
+========================================================================
+Received Import Request.
+  Time since last request: 3.905026 seconds.
+  path: Assets/Prefabs/Deleorean.prefab
+  artifactKey: Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Deleorean.prefab using Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '738119454c87a0fe8c7e37c4fb636594') in 0.052969 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 545
+========================================================================
+Received Import Request.
+  Time since last request: 2.559690 seconds.
+  path: Assets/Prefabs/Deleorean.prefab
+  artifactKey: Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Deleorean.prefab using Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86f0b3a1e7e915d60daba3daba495a3d') in 0.052400 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 545
+========================================================================
+Received Import Request.
+  Time since last request: 3.564716 seconds.
+  path: Assets/Prefabs/Deleorean.prefab
+  artifactKey: Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Deleorean.prefab using Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '239d77873a4027c2123b875bd4c5ba35') in 0.053081 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 545
+========================================================================
+Received Import Request.
+  Time since last request: 1.544412 seconds.
+  path: Assets/Prefabs/Deleorean.prefab
+  artifactKey: Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Deleorean.prefab using Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '643f8121f468bcb6e5cd90d4c817e4af') in 0.053315 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 545
+========================================================================
+Received Import Request.
+  Time since last request: 0.940972 seconds.
+  path: Assets/Prefabs/Deleorean.prefab
+  artifactKey: Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Deleorean.prefab using Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baf999302d36d339604efb69ff464a66') in 0.054332 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 545
+========================================================================
+Received Import Request.
+  Time since last request: 2.355277 seconds.
+  path: Assets/Prefabs/Deleorean.prefab
+  artifactKey: Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Deleorean.prefab using Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdd14343e7d144299d18272d56f70101') in 0.053606 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 545
+========================================================================
+Received Import Request.
+  Time since last request: 2.954589 seconds.
+  path: Assets/Prefabs/Deleorean.prefab
+  artifactKey: Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Deleorean.prefab using Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b6634b6f84a0006d20ad68da0cfbed6') in 0.050360 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 545
+========================================================================
+Received Import Request.
+  Time since last request: 3.158654 seconds.
+  path: Assets/Prefabs/Deleorean.prefab
+  artifactKey: Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Deleorean.prefab using Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a45827e8b4351ad1ddb37ca84be81df5') in 0.051611 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 545
+========================================================================
+Received Import Request.
+  Time since last request: 1.952675 seconds.
+  path: Assets/Prefabs/Deleorean.prefab
+  artifactKey: Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Deleorean.prefab using Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68d91a01a61cb8cba992d751f1cf4600') in 0.081648 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 545
+========================================================================
+Received Import Request.
+  Time since last request: 2.523634 seconds.
+  path: Assets/Prefabs/Deleorean.prefab
+  artifactKey: Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Deleorean.prefab using Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ef1e4c15c0e0ba1ab72e168733b28a6') in 0.054427 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 545
+========================================================================
+Received Import Request.
+  Time since last request: 6.983130 seconds.
+  path: Assets/Prefabs/Deleorean.prefab
+  artifactKey: Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Deleorean.prefab using Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2b8728ed54abfe90c53459fa31808cf') in 0.053299 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 545
+========================================================================
+Received Import Request.
+  Time since last request: 5.191778 seconds.
+  path: Assets/Prefabs/Deleorean.prefab
+  artifactKey: Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Deleorean.prefab using Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad485d225437ce7e601c2752aa819eea') in 0.087884 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 545
+========================================================================
+Received Import Request.
+  Time since last request: 0.503550 seconds.
+  path: Assets/Prefabs/Deleorean.prefab
+  artifactKey: Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Deleorean.prefab using Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '800832c9972c79ea935ef792a509e9b5') in 0.068738 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 545
+========================================================================
+Received Import Request.
+  Time since last request: 0.744258 seconds.
+  path: Assets/Prefabs/Deleorean.prefab
+  artifactKey: Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Deleorean.prefab using Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92c6b26deafae76ddb02641146807010') in 0.062859 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 545
+========================================================================
+Received Import Request.
+  Time since last request: 10.803670 seconds.
+  path: Assets/Prefabs/Deleorean.prefab
+  artifactKey: Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Deleorean.prefab using Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bffb4da3688927d9841f8faec003e2d1') in 0.045858 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 545
+========================================================================
+Received Import Request.
+  Time since last request: 7.811038 seconds.
+  path: Assets/Prefabs/Deleorean.prefab
+  artifactKey: Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Deleorean.prefab using Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac8d84bed74c25b3c0f9d063d493ff5a') in 0.049058 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 545
+========================================================================
+Received Import Request.
+  Time since last request: 4.967739 seconds.
+  path: Assets/Prefabs/Deleorean.prefab
+  artifactKey: Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Deleorean.prefab using Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5294fee8de9d959e8e78f49e14ca393') in 0.045929 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 545
+========================================================================
+Received Import Request.
+  Time since last request: 5.359852 seconds.
+  path: Assets/Prefabs/Deleorean.prefab
+  artifactKey: Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Deleorean.prefab using Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dd41825cacd1de0027e2145bdffea80') in 0.046514 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 545
+========================================================================
+Received Import Request.
+  Time since last request: 5.370441 seconds.
+  path: Assets/Prefabs/Deleorean.prefab
+  artifactKey: Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Deleorean.prefab using Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be9c338f677326ce01a74004ca460d18') in 0.046606 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 545
+========================================================================
+Received Import Request.
+  Time since last request: 4.370648 seconds.
+  path: Assets/Prefabs/Deleorean.prefab
+  artifactKey: Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Deleorean.prefab using Guid(d71e6a574af15b54eb26d17c40cea2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61b7fbb195422e9f89501d4fa91444c6') in 0.047632 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 545
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.272 seconds
+Refreshing native plugins compatible for Editor in 1.77 ms, found 0 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.962 seconds
+Domain Reload Profiling: 1231ms
+	BeginReloadAssembly (109ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (112ms)
+		LoadAssemblies (154ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (9ms)
+			TypeCache.Refresh (3ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (963ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (242ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (44ms)
+			ProcessInitializeOnLoadAttributes (140ms)
+			ProcessInitializeOnLoadMethodAttributes (42ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 1.71 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3036 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (417.4 KB). Loaded Objects now: 3733.
+Memory consumption went from 138.3 MB to 137.9 MB.
+Total: 2.506100 ms (FindLiveObjects: 0.261400 ms CreateObjectMapping: 0.044000 ms MarkObjects: 2.070900 ms  DeleteObjects: 0.129200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.262 seconds
+Refreshing native plugins compatible for Editor in 1.71 ms, found 0 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.569 seconds
+Domain Reload Profiling: 827ms
+	BeginReloadAssembly (103ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (109ms)
+		LoadAssemblies (153ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (9ms)
+			TypeCache.Refresh (3ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (570ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (217ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (40ms)
+			ProcessInitializeOnLoadAttributes (125ms)
+			ProcessInitializeOnLoadMethodAttributes (38ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 1.60 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3036 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (417.5 KB). Loaded Objects now: 3749.
+Memory consumption went from 138.2 MB to 137.8 MB.
+Total: 3.111500 ms (FindLiveObjects: 0.267900 ms CreateObjectMapping: 0.046700 ms MarkObjects: 2.628900 ms  DeleteObjects: 0.167400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.265 seconds
+Refreshing native plugins compatible for Editor in 1.64 ms, found 0 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.590 seconds
+Domain Reload Profiling: 851ms
+	BeginReloadAssembly (106ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (109ms)
+		LoadAssemblies (153ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (9ms)
+			TypeCache.Refresh (3ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (590ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (217ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (39ms)
+			ProcessInitializeOnLoadAttributes (124ms)
+			ProcessInitializeOnLoadMethodAttributes (39ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 2.15 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3036 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (417.6 KB). Loaded Objects now: 3765.
+Memory consumption went from 138.2 MB to 137.8 MB.
+Total: 3.097200 ms (FindLiveObjects: 0.258900 ms CreateObjectMapping: 0.046400 ms MarkObjects: 2.618800 ms  DeleteObjects: 0.172500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 950.939145 seconds.
+  path: Assets/Animations/JumpAnimation.anim
+  artifactKey: Guid(ac6f770d6c287164cb52b5eafe6b76d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/JumpAnimation.anim using Guid(ac6f770d6c287164cb52b5eafe6b76d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '620a3bd1bf6e929f7d2a80ac612b5dae') in 0.028150 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 3.277167 seconds.
+  path: Assets/Animations/Deleorean.controller
+  artifactKey: Guid(d3d056ea1ae3d9c40b7f751c2f229b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Deleorean.controller using Guid(d3d056ea1ae3d9c40b7f751c2f229b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd299f5e45807ee4a29858d7a60cee71a') in 0.001378 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.254 seconds
+Refreshing native plugins compatible for Editor in 1.72 ms, found 0 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.557 seconds
+Domain Reload Profiling: 808ms
+	BeginReloadAssembly (102ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (104ms)
+		LoadAssemblies (147ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (9ms)
+			TypeCache.Refresh (3ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (558ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (213ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (39ms)
+			ProcessInitializeOnLoadAttributes (121ms)
+			ProcessInitializeOnLoadMethodAttributes (39ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 2.09 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3036 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (417.0 KB). Loaded Objects now: 3781.
+Memory consumption went from 138.2 MB to 137.8 MB.
+Total: 3.201400 ms (FindLiveObjects: 0.326000 ms CreateObjectMapping: 0.101100 ms MarkObjects: 2.573400 ms  DeleteObjects: 0.200100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 34.113124 seconds.
+  path: Assets/Animations/DamageEffect.anim
+  artifactKey: Guid(0cae149981f77d146a99fa66f1cbe10f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/DamageEffect.anim using Guid(0cae149981f77d146a99fa66f1cbe10f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8119d6c80b5614098412fd186c2d5fb7') in 0.019762 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 4.105494 seconds.
+  path: Assets/Animations/DamageBorder.controller
+  artifactKey: Guid(868fca2343571ed4990d6e7c209fc38d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/DamageBorder.controller using Guid(868fca2343571ed4990d6e7c209fc38d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5576427f66c27011dcf441efd5d0f63') in 0.002848 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 5.835403 seconds.
+  path: Assets/Animations/DamageEffectIdle.anim
+  artifactKey: Guid(045cb6123b8238d4386296145e4d532a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/DamageEffectIdle.anim using Guid(045cb6123b8238d4386296145e4d532a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fd6f69f7476b7b7f29212471f06f96e') in 0.001020 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 3.776725 seconds.
+  path: Assets/Animations/DamageEffectIdle 1.anim
+  artifactKey: Guid(8970ea47648472f47955753e930a2f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/DamageEffectIdle 1.anim using Guid(8970ea47648472f47955753e930a2f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3b60020067dada940be216e84c0bd05') in 0.000913 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 4.305671 seconds.
+  path: Assets/Animations/Jumpidle.anim
+  artifactKey: Guid(8970ea47648472f47955753e930a2f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Jumpidle.anim using Guid(8970ea47648472f47955753e930a2f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84a02912e8ed5caa02f697e24ac81e36') in 0.000963 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.700664 seconds.
+  path: Assets/Animations/Deleorean.controller
+  artifactKey: Guid(d3d056ea1ae3d9c40b7f751c2f229b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Deleorean.controller using Guid(d3d056ea1ae3d9c40b7f751c2f229b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27278bad9f8c4a39d59be7da5f3a179f') in 0.001521 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 69.952997 seconds.
+  path: Assets/Scripts/PlayerController.cs
+  artifactKey: Guid(8c51f663c4fef9144aa3c2667d0c632b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerController.cs using Guid(8c51f663c4fef9144aa3c2667d0c632b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6f48648795ec5dafa26c38c41d48dec') in 0.000529 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 46.563320 seconds.
+  path: Assets/Scripts/HUD.cs
+  artifactKey: Guid(1a96e446daf3e1647954b02f63b73e8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HUD.cs using Guid(1a96e446daf3e1647954b02f63b73e8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eceda472410b5e297633d3ab6452ab7a') in 0.000530 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.340 seconds
+Refreshing native plugins compatible for Editor in 2.69 ms, found 0 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.698 seconds
+Domain Reload Profiling: 1034ms
+	BeginReloadAssembly (124ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (156ms)
+		LoadAssemblies (189ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (31ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (16ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (699ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (258ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (47ms)
+			ProcessInitializeOnLoadAttributes (141ms)
+			ProcessInitializeOnLoadMethodAttributes (53ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 1.84 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3036 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (417.1 KB). Loaded Objects now: 3797.
+Memory consumption went from 138.2 MB to 137.8 MB.
+Total: 2.576900 ms (FindLiveObjects: 0.243900 ms CreateObjectMapping: 0.044500 ms MarkObjects: 2.129600 ms  DeleteObjects: 0.158300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.297 seconds
+Refreshing native plugins compatible for Editor in 1.82 ms, found 0 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.563 seconds
+Domain Reload Profiling: 856ms
+	BeginReloadAssembly (117ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (121ms)
+		LoadAssemblies (169ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (9ms)
+			TypeCache.Refresh (3ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (563ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (214ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (38ms)
+			ProcessInitializeOnLoadAttributes (124ms)
+			ProcessInitializeOnLoadMethodAttributes (38ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 1.60 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3036 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (417.5 KB). Loaded Objects now: 3813.
+Memory consumption went from 138.2 MB to 137.8 MB.
+Total: 3.345500 ms (FindLiveObjects: 0.323200 ms CreateObjectMapping: 0.204000 ms MarkObjects: 2.610600 ms  DeleteObjects: 0.206800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.257 seconds
+Refreshing native plugins compatible for Editor in 1.73 ms, found 0 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.557 seconds
+Domain Reload Profiling: 812ms
+	BeginReloadAssembly (100ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (107ms)
+		LoadAssemblies (149ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (9ms)
+			TypeCache.Refresh (3ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (558ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (212ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (37ms)
+			ProcessInitializeOnLoadAttributes (122ms)
+			ProcessInitializeOnLoadMethodAttributes (40ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 1.45 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3036 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (417.1 KB). Loaded Objects now: 3829.
+Memory consumption went from 138.2 MB to 137.8 MB.
+Total: 2.738900 ms (FindLiveObjects: 0.221500 ms CreateObjectMapping: 0.046100 ms MarkObjects: 2.300600 ms  DeleteObjects: 0.170000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 249.289206 seconds.
+  path: Assets/Animations/JumpAnimation.anim
+  artifactKey: Guid(ac6f770d6c287164cb52b5eafe6b76d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/JumpAnimation.anim using Guid(ac6f770d6c287164cb52b5eafe6b76d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aed2e06b28d74041848076741e646dee') in 0.027361 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 25.353667 seconds.
+  path: Assets/Prefabs/Models/Materials/amar.mat
+  artifactKey: Guid(ce18da39da36ce64f982ae6bc2cc54a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/Materials/amar.mat using Guid(ce18da39da36ce64f982ae6bc2cc54a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '103ee2fa5d244cc8d120efd51fe5ce29') in 0.144125 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 4.110656 seconds.
+  path: Assets/Prefabs/Models/GarbageTruck.fbx
+  artifactKey: Guid(d9c8fd661521d674d8e92d265e1097fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Models/GarbageTruck.fbx using Guid(d9c8fd661521d674d8e92d265e1097fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f8aac4d790f7f9ce94a4dc38d32b370') in 0.456908 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 577
+========================================================================
+Received Import Request.
+  Time since last request: 0.015444 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Blue to Purple - Vertical.asset
+  artifactKey: Guid(479a66fa4b094512a62b0a8e553ad95a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Blue to Purple - Vertical.asset using Guid(479a66fa4b094512a62b0a8e553ad95a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56c038cdf46a02869c7aaa0d4f51479e') in 0.001584 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.374 seconds
+Refreshing native plugins compatible for Editor in 1.49 ms, found 0 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.070 seconds
+Domain Reload Profiling: 1442ms
+	BeginReloadAssembly (160ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (160ms)
+		LoadAssemblies (220ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (10ms)
+			TypeCache.Refresh (3ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1070ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (277ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (45ms)
+			ProcessInitializeOnLoadAttributes (165ms)
+			ProcessInitializeOnLoadMethodAttributes (51ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 2.56 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3036 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (417.6 KB). Loaded Objects now: 3917.
+Memory consumption went from 138.8 MB to 138.4 MB.
+Total: 3.859300 ms (FindLiveObjects: 0.324900 ms CreateObjectMapping: 0.050400 ms MarkObjects: 3.305200 ms  DeleteObjects: 0.177600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.271 seconds
+Refreshing native plugins compatible for Editor in 1.45 ms, found 0 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.565 seconds
+Domain Reload Profiling: 832ms
+	BeginReloadAssembly (109ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (111ms)
+		LoadAssemblies (158ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (9ms)
+			TypeCache.Refresh (3ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (565ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (217ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (38ms)
+			ProcessInitializeOnLoadAttributes (126ms)
+			ProcessInitializeOnLoadMethodAttributes (39ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 2.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3036 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (417.2 KB). Loaded Objects now: 3933.
+Memory consumption went from 138.7 MB to 138.3 MB.
+Total: 3.142000 ms (FindLiveObjects: 0.335900 ms CreateObjectMapping: 0.076000 ms MarkObjects: 2.551700 ms  DeleteObjects: 0.177200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.266 seconds
+Refreshing native plugins compatible for Editor in 1.48 ms, found 0 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.573 seconds
+Domain Reload Profiling: 836ms
+	BeginReloadAssembly (106ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (110ms)
+		LoadAssemblies (154ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (10ms)
+			TypeCache.Refresh (3ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (573ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (221ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (39ms)
+			ProcessInitializeOnLoadAttributes (127ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 1.89 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3036 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (417.6 KB). Loaded Objects now: 3949.
+Memory consumption went from 138.7 MB to 138.3 MB.
+Total: 2.888300 ms (FindLiveObjects: 0.307600 ms CreateObjectMapping: 0.067900 ms MarkObjects: 2.353900 ms  DeleteObjects: 0.158200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.268 seconds
+Refreshing native plugins compatible for Editor in 1.50 ms, found 0 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.579 seconds
+Domain Reload Profiling: 845ms
+	BeginReloadAssembly (104ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (113ms)
+		LoadAssemblies (156ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (9ms)
+			TypeCache.Refresh (3ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (580ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (218ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (39ms)
+			ProcessInitializeOnLoadAttributes (126ms)
+			ProcessInitializeOnLoadMethodAttributes (38ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 1.84 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3036 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (417.6 KB). Loaded Objects now: 3965.
+Memory consumption went from 138.8 MB to 138.4 MB.
+Total: 3.040000 ms (FindLiveObjects: 0.249500 ms CreateObjectMapping: 0.047800 ms MarkObjects: 2.519500 ms  DeleteObjects: 0.222300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 

@@ -4348,6 +4348,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c51f663c4fef9144aa3c2667d0c632b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &2122620489
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2122620485}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d3d056ea1ae3d9c40b7f751c2f229b28, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &2126756548
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4400,6 +4421,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Deleorean
       objectReference: {fileID: 0}
+    - target: {fileID: 4209144338042095629, guid: d71e6a574af15b54eb26d17c40cea2fb, type: 3}
+      propertyPath: looping
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4747584354170967307, guid: d71e6a574af15b54eb26d17c40cea2fb, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8370108076410420968, guid: d71e6a574af15b54eb26d17c40cea2fb, type: 3}
       propertyPath: orientationCam
       value: 
@@ -4407,7 +4436,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 994495277067077919, guid: d71e6a574af15b54eb26d17c40cea2fb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2122620489}
   m_SourcePrefab: {fileID: 100100000, guid: d71e6a574af15b54eb26d17c40cea2fb, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
