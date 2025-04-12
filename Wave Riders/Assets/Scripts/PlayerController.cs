@@ -10,6 +10,7 @@ public class PlayerController : MonoBehaviour, IChannel
     Vector3 newPos;
     public bool boostActive = false;
     [SerializeField] public Transform orientationCam;
+    [SerializeField] public GameObject FollowTarget;
     public float boostMultiplier = 1f;
 
     [SerializeField] private float lerpSpeed = 0.5f;
@@ -59,10 +60,9 @@ public class PlayerController : MonoBehaviour, IChannel
 
     public void Updates(int health)
     {
-        if (health <= 50)
+        if (health <= 0)
         {
-            //moveSpeed /= 2;
-            //Invoke("changeMoveSpeed",2);
+            Death();
         }
     }
 
@@ -119,8 +119,14 @@ public class PlayerController : MonoBehaviour, IChannel
     }
 
 
-    private void changeMoveSpeed()
+    private void Death()
     {
-        moveSpeed *= 2;
+        FollowTarget.transform.parent = null;
+
+        InputManager.OnLeftInput -= MoveLeft;
+        InputManager.OnRightInput -= MoveRight;
+        InputManager.OnJumpInput -= Jump;
+
+
     }
 }

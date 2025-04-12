@@ -9,13 +9,17 @@ public class DamageManager3 : DamageHandler
         if (request < 41)
         {
             System.Random rand = new System.Random();
-            int partInt = rand.Next(0, player.GetComponent<PlayerController>().DamageableObjects.Count);
 
-            string part = player.GetComponent<PlayerController>().DamageableObjects[partInt].name;
-            player.GetComponent<PlayerController>().DamageableObjects.RemoveAt(partInt);
+            if (player.GetComponent<PlayerController>().DamageableObjects.Count > 0)
+            {
+                int partInt = rand.Next(0, player.GetComponent<PlayerController>().DamageableObjects.Count);
 
-            player.transform.Find(part).gameObject.AddComponent<Rigidbody>();
-            player.transform.Find(part).transform.parent = null;
+                string part = player.GetComponent<PlayerController>().DamageableObjects[partInt].name;
+                player.GetComponent<PlayerController>().DamageableObjects.RemoveAt(partInt);
+
+                player.transform.Find(part).gameObject.AddComponent<Rigidbody>();
+                player.transform.Find(part).transform.parent = null;
+            }
 
             if (_nextHandler != null)
             {

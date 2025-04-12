@@ -118,7 +118,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 8784
+  controlID: 52
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -143,7 +143,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
-  controlID: 8785
+  controlID: 53
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -169,7 +169,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 50}
   m_MaxSize: {x: 24288, y: 8096}
   vertical: 0
-  controlID: 8786
+  controlID: 54
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -323,7 +323,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Scripts
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -331,16 +331,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 96
   m_LastFolders:
-  - Assets
+  - Assets/Scripts
   m_LastFoldersGridSize: 96
   m_LastProjectPath: C:\Users\Diego Arriaga\Documents\GitHub\RetroRider\Wave Riders
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 0a880000
-    m_LastClickedID: 34826
-    m_ExpandedIDs: 000000000a8800002688000000ca9a3bffffff7f
+    m_SelectedIDs: 62860000
+    m_LastClickedID: 34402
+    m_ExpandedIDs: 000000004686000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -368,7 +368,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000000a880000
+    m_ExpandedIDs: 0000000046860000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -395,7 +395,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000b89f0000f49f0000949f0000e89d0000e8a70000069e0000009e00001aa90000e49d0000309e0000ca350a00fe350a00f2350a00f8350a0016360a0004a70000eea60000caa60000c0a5000000000000aac20000f67400003a7000005e700000d4760000f092000064a50000684d00006ab00000c8850000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -463,7 +463,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 3c1efbff12fbffffa25c0000
+      m_ExpandedIDs: 12fbffff585c0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -856,9 +856,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 28.077065, y: 23.35704, z: 3663.8394}
+    m_Target: {x: 40.500168, y: 6.2240753, z: -55.936066}
     speed: 2
-    m_Value: {x: -22.2434, y: 21.758604, z: -84.88312}
+    m_Value: {x: 40.500168, y: 6.2240753, z: -55.936066}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -904,13 +904,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.31856024, y: -0.0020753795, z: 0.0015160949, w: -0.94760644}
+    m_Target: {x: -0.059705712, y: -0.69481015, z: 0.059353303, w: -0.71385926}
     speed: 2
-    m_Value: {x: -0.1571189, y: 0.017599063, z: -0.0033997155, w: -0.98741704}
+    m_Value: {x: -0.059811313, y: -0.69393164, z: 0.059280172, w: -0.7150996}
   m_Size:
-    m_Target: 79.11028
+    m_Target: 12.124355
     speed: 2
-    m_Value: 3.2059517
+    m_Value: 12.124359
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1161,7 +1161,7 @@ MonoBehaviour:
     m_ControlHash: 1412526313
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
+  m_LastVerticalScrollValue: 227
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
@@ -1203,7 +1203,7 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 56556
+  m_LastSelectedObjectID: -1762
 --- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
