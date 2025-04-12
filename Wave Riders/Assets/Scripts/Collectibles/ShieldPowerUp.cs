@@ -5,8 +5,6 @@ using TMPro;
 
 public class ShieldPowerUp : MonoBehaviour,ICollectible
 {
-    [SerializeField] private TMP_Text powerUpText;
-
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
@@ -17,7 +15,6 @@ public class ShieldPowerUp : MonoBehaviour,ICollectible
 
     void Update()
     {
-
         if (this.CompareTag("Collectible"))
         {
             this.transform.Rotate(Vector3.up);
@@ -28,6 +25,7 @@ public class ShieldPowerUp : MonoBehaviour,ICollectible
     public void Collect()
     {
         //JumpBar.Singleton.AddPower(25);
+        HUD.powerupNum++;
         AudioManager.instance.PlaySFX("JumpPickUp");
         Destroy(this.gameObject);
     }
