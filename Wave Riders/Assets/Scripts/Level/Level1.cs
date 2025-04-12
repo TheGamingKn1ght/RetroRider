@@ -5,7 +5,7 @@ using UnityEngine;
 public class Level1 : Level
 {
     [SerializeField] private List<GameObject> obstacles;
-    [SerializeField] private GameObject SpeedBoost;
+    [SerializeField] private List<GameObject> Powerup;
 
     Vector3 obstacleDisplacement = new Vector3(25, 0, 0);
     Vector3 boostDisplacement = new Vector3(28, 0, 0);
@@ -21,6 +21,7 @@ public class Level1 : Level
     {
         System.Random rand = new System.Random();
         int obsInt = rand.Next(0, 2);
+        int powerUpInt = rand.Next(0, 4);
 
         if (obsInt == 1)
         {
@@ -28,7 +29,14 @@ public class Level1 : Level
             {
                 obstacle.transform.position += obstacleDisplacement;
             }
-            SpeedBoost.transform.position -= boostDisplacement;
+
+            if(powerUpInt != 0)
+            {
+                Powerup[powerUpInt].transform.position -= boostDisplacement;
+                Powerup[powerUpInt].SetActive(true);
+            }
         }
+
+        Powerup[powerUpInt].SetActive(true);
     }
 }

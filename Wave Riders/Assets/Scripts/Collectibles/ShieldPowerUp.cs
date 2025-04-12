@@ -24,9 +24,8 @@ public class ShieldPowerUp : MonoBehaviour,ICollectible
 
     public void Collect()
     {
-        //JumpBar.Singleton.AddPower(25);
         HUD.powerupNum++;
-        AudioManager.instance.PlaySFX("JumpPickUp");
+        AudioManager.instance.PlaySFX("ShieldPickUp");
         Destroy(this.gameObject);
     }
 

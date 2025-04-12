@@ -5,6 +5,8 @@ using UnityEngine;
 public class Level5 : Level
 {
     [SerializeField] private List<GameObject> obstacles;
+    [SerializeField] private GameObject Jump;
+    [SerializeField] private GameObject Shield;
 
     Vector3 obstacleDisplacement = new Vector3(25,0,0);
 
@@ -26,6 +28,19 @@ public class Level5 : Level
             {
                 obstacle.transform.position -= obstacleDisplacement;
             }
+        }
+
+        int powerUpInt = rand.Next(0, 3);
+
+        Debug.Log(powerUpInt);
+
+        if (powerUpInt == 1)
+        {
+            Jump.SetActive(true);
+        }
+        else if (powerUpInt == 2)
+        {
+            Shield.SetActive(true);
         }
     }
 }

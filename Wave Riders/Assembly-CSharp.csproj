@@ -60,6 +60,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Collectibles\JumpPowerUp.cs" />
+    <Compile Include="Assets\Scripts\Collectibles\ShieldPowerUp.cs" />
     <Compile Include="Assets\Scripts\DamageManager\DamageHandlerManager.cs" />
     <Compile Include="Assets\Scripts\DamageManager\DamageManager1.cs" />
     <Compile Include="Assets\Scripts\DamageManager\DamageManager2.cs" />

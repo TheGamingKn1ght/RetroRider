@@ -3600,6 +3600,8 @@ MonoBehaviour:
     clip: {fileID: 8300000, guid: 7e7ba5f14eeb5a247a14a8dfefbed265, type: 3}
   - name: JumpBoost
     clip: {fileID: 8300000, guid: e56d685c151b3db4c8e88814ec7a7f21, type: 3}
+  - name: ShieldPickUp
+    clip: {fileID: 8300000, guid: 608f75a5ef03b64488a4cbb7a81fcae2, type: 3}
   musicSource: {fileID: 1965097783}
   sfxSource: {fileID: 341824160}
 --- !u!4 &1712430477
