@@ -23,7 +23,7 @@ public class Laser : MonoBehaviour, IObstacle
     {
         if (!playerController.boostActive)
         {
-            HealthSystem.Singleton.applyDamage(50);
+            HealthSystem.Singleton.applyDamage(25);
         }
         AudioManager.instance.PlaySFX("Laser");
     }

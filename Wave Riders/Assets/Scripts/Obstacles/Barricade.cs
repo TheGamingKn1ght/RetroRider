@@ -22,7 +22,7 @@ public class Barricade : MonoBehaviour, IObstacle
     {
         if (!playerController.boostActive)
         {
-            HealthSystem.Singleton.applyDamage(20);
+            HealthSystem.Singleton.applyDamage(5);
         }
         Transform coords = this.gameObject.transform;
         //Transform Pivot is off center so must adjust transform spawn
