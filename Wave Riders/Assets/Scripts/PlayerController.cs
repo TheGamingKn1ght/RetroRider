@@ -22,16 +22,12 @@ public class PlayerController : MonoBehaviour, IChannel
 
     private void OnEnable()
     {
-        InputManager.OnLeftInput += MoveLeft;
-        InputManager.OnRightInput += MoveRight;
-        InputManager.OnJumpInput += Jump;
+        ActivateMovement();
     }
 
     private void OnDisable()
     {
-        InputManager.OnLeftInput -= MoveLeft;
-        InputManager.OnRightInput -= MoveRight;
-        InputManager.OnJumpInput -= Jump;
+        DeactivateMovement();
     }
 
     private void Start()
@@ -123,11 +119,22 @@ public class PlayerController : MonoBehaviour, IChannel
     {
         FollowTarget.transform.parent = null;
 
-        InputManager.OnLeftInput -= MoveLeft;
-        InputManager.OnRightInput -= MoveRight;
-        InputManager.OnJumpInput -= Jump;
+        DeactivateMovement();
 
 
     }
 
+    public void ActivateMovement()
+    {
+        InputManager.OnLeftInput += MoveLeft;
+        InputManager.OnRightInput += MoveRight;
+        InputManager.OnJumpInput += Jump;
+    }
+
+    public void DeactivateMovement()
+    {
+        InputManager.OnLeftInput -= MoveLeft;
+        InputManager.OnRightInput -= MoveRight;
+        InputManager.OnJumpInput -= Jump;
+    }
 }

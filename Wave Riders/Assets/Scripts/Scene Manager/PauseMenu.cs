@@ -30,10 +30,12 @@ public class PauseMenu : MonoBehaviour
         if (pauseCanvas.activeSelf)
         {
             UIManager.Singleton.PauseGame();
+            player.DeactivateMovement();
         }
         else
         {
             UIManager.Singleton.ResumeGame();
+            player.ActivateMovement();
         }
     }
 
