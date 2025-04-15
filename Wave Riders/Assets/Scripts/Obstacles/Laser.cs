@@ -14,7 +14,7 @@ public class Laser : MonoBehaviour, IObstacle
         {
              playerController = other.GetComponentInParent<PlayerController>();
 
-                Collide();
+             Collide();
             
         }
     }

@@ -14,10 +14,11 @@ public class Vehicle : MonoBehaviour, IObstacle
         if (other.CompareTag("Player"))
         {
             playerController = other.GetComponentInParent<PlayerController>();
-            playerForward = other.GetComponentInParent<PlayerController>().orientationCam.transform.forward;
+            playerForward = playerController.orientationCam.transform.forward;
 
-                Collide();
-            
+            Collide();
+
+            Debug.Log(other.gameObject.name);
         }
     }
 

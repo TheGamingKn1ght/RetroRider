@@ -28,5 +28,4 @@ public class ShieldPowerUp : MonoBehaviour,ICollectible
         AudioManager.instance.PlaySFX("ShieldPickUp");
         Destroy(this.gameObject);
     }
-
 }

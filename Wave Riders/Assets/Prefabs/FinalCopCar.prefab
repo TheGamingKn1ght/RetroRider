@@ -56,6 +56,14 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 2ebeb23f746d3e945acd2d2d1e89da0d, type: 2}
+    - target: {fileID: -4355367258702703589, guid: 4769a9b24533ae24bab90f297a4a5657, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0fbc152e623f5fe42b48d4af860bc592, type: 2}
+    - target: {fileID: -616404808118286078, guid: 4769a9b24533ae24bab90f297a4a5657, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0fbc152e623f5fe42b48d4af860bc592, type: 2}
     - target: {fileID: 919132149155446097, guid: 4769a9b24533ae24bab90f297a4a5657, type: 3}
       propertyPath: m_Name
       value: FinalCopCar

@@ -4485,6 +4485,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1284820683}
     m_Modifications:
+    - target: {fileID: 104666259319432094, guid: d71e6a574af15b54eb26d17c40cea2fb, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 696f170ef9686f04ea14703d4a34f520, type: 2}
     - target: {fileID: 470336456436700069, guid: d71e6a574af15b54eb26d17c40cea2fb, type: 3}
       propertyPath: m_LocalPosition.x
       value: 24.800001
@@ -4529,6 +4533,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: Deleorean
       objectReference: {fileID: 0}
+    - target: {fileID: 1043564085917064815, guid: d71e6a574af15b54eb26d17c40cea2fb, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2ebeb23f746d3e945acd2d2d1e89da0d, type: 2}
+    - target: {fileID: 2855132327695702026, guid: d71e6a574af15b54eb26d17c40cea2fb, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2ebeb23f746d3e945acd2d2d1e89da0d, type: 2}
+    - target: {fileID: 3649410514324047833, guid: d71e6a574af15b54eb26d17c40cea2fb, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3649410514324047833, guid: d71e6a574af15b54eb26d17c40cea2fb, type: 3}
+      propertyPath: m_ProvidesContacts
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4209144338042095629, guid: d71e6a574af15b54eb26d17c40cea2fb, type: 3}
       propertyPath: looping
       value: 1
@@ -4545,6 +4565,10 @@ PrefabInstance:
       propertyPath: FollowTarget
       value: 
       objectReference: {fileID: 2033429400}
+    - target: {fileID: 8370108076410420968, guid: d71e6a574af15b54eb26d17c40cea2fb, type: 3}
+      propertyPath: jumpMultiplier
+      value: 160
+      objectReference: {fileID: 0}
     - target: {fileID: 8370108076410420968, guid: d71e6a574af15b54eb26d17c40cea2fb, type: 3}
       propertyPath: orientationCam
       value: 
