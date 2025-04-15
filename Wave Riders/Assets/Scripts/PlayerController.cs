@@ -4,10 +4,12 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour, IChannel
 {
-    Rigidbody rb;
+    public Rigidbody rb;
     Vector3 playerPos;
     Vector3 startingPos;
-    Vector3 newPos;
+
+    public static RigidbodyConstraints OGconstraints;
+
     public bool boostActive = false;
     [SerializeField] public Transform orientationCam;
     [SerializeField] public GameObject FollowTarget;
@@ -19,6 +21,23 @@ public class PlayerController : MonoBehaviour, IChannel
     float time;
 
     [SerializeField] public List<GameObject> DamageableObjects = new List<GameObject>();
+
+    #region Singleton
+    public static PlayerController Singleton;
+
+    public void Awake()
+    {
+        if (Singleton == null)
+        {
+            Singleton = this;
+            DontDestroyOnLoad(this.gameObject);
+        }
+        else
+        {
+            Destroy(this.gameObject);
+        }
+    }
+    #endregion
 
     private void OnEnable()
     {
@@ -33,6 +52,7 @@ public class PlayerController : MonoBehaviour, IChannel
     private void Start()
     {
         rb = GetComponent<Rigidbody>();
+        OGconstraints = rb.constraints;
         playerPos = rb.transform.position;
         startingPos = rb.transform.position;
         HealthSystem.Singleton.AddObserver(this);
@@ -107,6 +127,7 @@ public class PlayerController : MonoBehaviour, IChannel
         if (JumpBar.Singleton.barFull)
         {
             //Jump
+            rb.constraints -= RigidbodyConstraints.FreezePositionY;
             AudioManager.instance.PlaySFX("JumpBoost");
             this.GetComponent<Animator>().Play("JumpAnimation");
             rb.AddForce(rb.transform.up * jumpMultiplier, ForceMode.Impulse);
@@ -115,13 +136,14 @@ public class PlayerController : MonoBehaviour, IChannel
     }
 
 
+
     private void Death()
     {
         FollowTarget.transform.parent = null;
 
         DeactivateMovement();
 
-
+        rb.constraints -= RigidbodyConstraints.None;
     }
 
     public void ActivateMovement()
