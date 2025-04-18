@@ -33,6 +33,7 @@ public class InputManager : MonoBehaviour
     public static event System.Action OnRightInput;
     public static event System.Action OnPauseInput;
     public static event System.Action OnJumpInput;
+    public static event System.Action OnShieldInput;
 
     void OnEnable()
     {
@@ -41,6 +42,7 @@ public class InputManager : MonoBehaviour
         controls.Player.Right.performed += ctx => OnRightInput?.Invoke();
         controls.Player.Pause.performed += ctx => OnPauseInput?.Invoke();
         controls.Player.Jump.performed += ctx => OnJumpInput?.Invoke();
+        controls.Player.Shield.performed += ctx => OnShieldInput?.Invoke();
 
         controls.Player.Enable();
     }

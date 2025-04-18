@@ -50,7 +50,6 @@ public class HealthSystem : MonoBehaviour
         if(health <= 0)
         {
             health = 0;
-            //Call death function;
         }
         foreach (var channel in listeners)
         {

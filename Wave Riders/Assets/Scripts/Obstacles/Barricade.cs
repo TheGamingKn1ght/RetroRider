@@ -19,7 +19,7 @@ public class Barricade : MonoBehaviour, IObstacle
 
     public void Collide()
     {
-        if (!playerController.boostActive)
+        if (!playerController.powerActive)
         {
             HealthSystem.Singleton.applyDamage(5);
         }

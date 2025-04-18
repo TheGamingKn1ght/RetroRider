@@ -43,11 +43,13 @@ public class HUD : MonoBehaviour, IChannel
 
     public void Updates(int newHealth)
     {
-        DamageEffect.GetComponent<Animator>().Play("DamageEffect");
-        
         if(newHealth <= 0)
         {
             DeathEffect.GetComponent<Animator>().Play("DeathAnimation");
+        }
+        else
+        {
+            DamageEffect.GetComponent<Animator>().Play("DamageEffect");
         }
         
     }

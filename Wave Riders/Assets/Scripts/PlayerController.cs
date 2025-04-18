@@ -10,7 +10,7 @@ public class PlayerController : MonoBehaviour, IChannel
 
     public static RigidbodyConstraints OGconstraints;
 
-    public bool boostActive = false;
+    public bool powerActive = false;
     [SerializeField] public Transform orientationCam;
     [SerializeField] public GameObject FollowTarget;
     public float boostMultiplier = 1f;

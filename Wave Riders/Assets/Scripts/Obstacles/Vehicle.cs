@@ -24,7 +24,7 @@ public class Vehicle : MonoBehaviour, IObstacle
 
     public void Collide()
     {
-        if (!playerController.boostActive)
+        if (!playerController.powerActive)
         {
             HealthSystem.Singleton.applyDamage(15);
         }

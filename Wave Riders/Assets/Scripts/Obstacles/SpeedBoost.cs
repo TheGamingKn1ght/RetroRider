@@ -17,11 +17,11 @@ public class SpeedBoost : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player") && other.GetComponentInParent<PlayerController>().boostActive == false)
+        if (other.CompareTag("Player") && other.GetComponentInParent<PlayerController>().powerActive == false)
         {
             PlayerController playerController = other.GetComponentInParent<PlayerController>();
             Debug.Log("Boosted");
-            playerController.boostActive = true;
+            playerController.powerActive = true;
             playerCollider = other;
             Vector3 playerForward = other.GetComponentInParent<PlayerController>().orientationCam.transform.forward;
             OriginalPlayerForwardVelocity = other.GetComponentInParent<Rigidbody>().velocity;
@@ -38,7 +38,7 @@ public class SpeedBoost : MonoBehaviour
         Debug.Log("Boost Timer Started");
         yield return new WaitForSeconds(BoostDuration);
         playerController.boostMultiplier = 1f;
-        playerController.boostActive = false; 
+        playerController.powerActive = false; 
         Debug.Log("Boost Ended");
     }
 }

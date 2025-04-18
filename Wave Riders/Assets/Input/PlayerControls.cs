@@ -62,6 +62,15 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Shield"",
+                    ""type"": ""Button"",
+                    ""id"": ""b3e818ce-6aa1-4699-9c65-80ecfa599970"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -108,6 +117,17 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
                     ""action"": ""Jump"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""5a6b36ed-5b70-4211-bbc5-83c233b656ed"",
+                    ""path"": ""<Keyboard>/e"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Shield"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -120,6 +140,7 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
         m_Player_Right = m_Player.FindAction("Right", throwIfNotFound: true);
         m_Player_Pause = m_Player.FindAction("Pause", throwIfNotFound: true);
         m_Player_Jump = m_Player.FindAction("Jump", throwIfNotFound: true);
+        m_Player_Shield = m_Player.FindAction("Shield", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -185,6 +206,7 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
     private readonly InputAction m_Player_Right;
     private readonly InputAction m_Player_Pause;
     private readonly InputAction m_Player_Jump;
+    private readonly InputAction m_Player_Shield;
     public struct PlayerActions
     {
         private @PlayerControls m_Wrapper;
@@ -193,6 +215,7 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
         public InputAction @Right => m_Wrapper.m_Player_Right;
         public InputAction @Pause => m_Wrapper.m_Player_Pause;
         public InputAction @Jump => m_Wrapper.m_Player_Jump;
+        public InputAction @Shield => m_Wrapper.m_Player_Shield;
         public InputActionMap Get() { return m_Wrapper.m_Player; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -214,6 +237,9 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
             @Jump.started += instance.OnJump;
             @Jump.performed += instance.OnJump;
             @Jump.canceled += instance.OnJump;
+            @Shield.started += instance.OnShield;
+            @Shield.performed += instance.OnShield;
+            @Shield.canceled += instance.OnShield;
         }
 
         private void UnregisterCallbacks(IPlayerActions instance)
@@ -230,6 +256,9 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
             @Jump.started -= instance.OnJump;
             @Jump.performed -= instance.OnJump;
             @Jump.canceled -= instance.OnJump;
+            @Shield.started -= instance.OnShield;
+            @Shield.performed -= instance.OnShield;
+            @Shield.canceled -= instance.OnShield;
         }
 
         public void RemoveCallbacks(IPlayerActions instance)
@@ -253,5 +282,6 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
         void OnRight(InputAction.CallbackContext context);
         void OnPause(InputAction.CallbackContext context);
         void OnJump(InputAction.CallbackContext context);
+        void OnShield(InputAction.CallbackContext context);
     }
 }
