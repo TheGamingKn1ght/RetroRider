@@ -6,6 +6,7 @@ using TMPro;
 public class HUD : MonoBehaviour, IChannel
 {
     [SerializeField] private CanvasGroup DamageEffect;
+    [SerializeField] private CanvasGroup DeathEffect;
     [SerializeField] private TMP_Text powerUpTextRef;
 
     public static int powerupNum;
@@ -32,6 +33,7 @@ public class HUD : MonoBehaviour, IChannel
     {
         HealthSystem.Singleton.AddObserver(this);
         DamageEffect.alpha = 0;
+        DeathEffect.alpha = 0;
     }
 
     void Update()
@@ -42,6 +44,12 @@ public class HUD : MonoBehaviour, IChannel
     public void Updates(int newHealth)
     {
         DamageEffect.GetComponent<Animator>().Play("DamageEffect");
+        
+        if(newHealth <= 0)
+        {
+            DeathEffect.GetComponent<Animator>().Play("DeathAnimation");
+        }
+        
     }
 
 }
