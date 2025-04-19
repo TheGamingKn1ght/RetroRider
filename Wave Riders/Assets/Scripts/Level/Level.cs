@@ -23,6 +23,6 @@ public class Level : MonoBehaviour, ILevel
     }
     public virtual void PlaceObstacles()
     {
-
+        Debug.Log("Placing Obstacles");
     }
 }
