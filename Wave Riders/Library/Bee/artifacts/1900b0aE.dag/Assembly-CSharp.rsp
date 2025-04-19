@@ -355,6 +355,7 @@
 "Assets/AddRbConstraint.cs"
 "Assets/Input/PlayerControls.cs"
 "Assets/Scripts/AudioManager.cs"
+"Assets/Scripts/Collectibles/Coin.cs"
 "Assets/Scripts/Collectibles/JumpPowerUp.cs"
 "Assets/Scripts/Collectibles/ShieldActivation.cs"
 "Assets/Scripts/Collectibles/ShieldPowerUp.cs"

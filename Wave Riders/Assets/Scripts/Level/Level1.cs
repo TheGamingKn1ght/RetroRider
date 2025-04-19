@@ -6,6 +6,7 @@ public class Level1 : Level
 {
     [SerializeField] private List<GameObject> obstacles;
     [SerializeField] private List<GameObject> Powerup;
+    [SerializeField] private List<GameObject> CoinGroups;
 
     Vector3 obstacleDisplacement = new Vector3(25, 0, 0);
     Vector3 boostDisplacement = new Vector3(28, 0, 0);
@@ -38,5 +39,39 @@ public class Level1 : Level
         }
 
         Powerup[powerUpInt].SetActive(true);
+        
+        PlaceCoins(obsInt, powerUpInt);
+    }
+
+    public override void PlaceCoins(int obsInt, int puInt)
+    {
+        System.Random rand = new System.Random();
+        int coinInt = rand.Next(0, 2);
+
+        if (obsInt == 0 && puInt == 0)
+        {
+            CoinGroups[0].SetActive(true);
+            if (coinInt == 0)
+            {
+                CoinGroups[1].SetActive(true);
+                CoinGroups[2].SetActive(true);
+            }
+            else if (coinInt == 1)
+            {
+                CoinGroups[4].SetActive(true);
+            }
+        }
+        else if(puInt == 0)
+        {
+            if (coinInt == 0)
+            {
+                CoinGroups[3].SetActive(true);
+                CoinGroups[2].SetActive(true);
+            }
+            else if (coinInt == 1)
+            {
+                CoinGroups[4].SetActive(true);
+            }
+        }
     }
 }

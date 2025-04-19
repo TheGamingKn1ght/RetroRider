@@ -25,4 +25,8 @@ public class Level : MonoBehaviour, ILevel
     {
         Debug.Log("Placing Obstacles");
     }
+    public virtual void PlaceCoins(int obsInt, int puint)
+    {
+        Debug.Log("Placing Coin Trail");
+    }
 }
