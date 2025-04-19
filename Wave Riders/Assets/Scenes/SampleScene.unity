@@ -4401,7 +4401,6 @@ MonoBehaviour:
   - {fileID: 5812278600900886671, guid: 900aaef6408f154499692d8bb1e82038, type: 3}
   - {fileID: 2620249229677818183, guid: 3c6bb1b3004e0694b9420e4aae0bbca8, type: 3}
   - {fileID: 3981188543150337113, guid: 701defa266933064c9a53afa39540e0d, type: 3}
-  LvlLength: 40
 --- !u!4 &2049165106
 Transform:
   m_ObjectHideFlags: 0

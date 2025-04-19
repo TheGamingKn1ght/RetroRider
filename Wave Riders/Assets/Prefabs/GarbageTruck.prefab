@@ -109,8 +109,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 3.3617706, y: 3.5311737, z: 9.429882}
-  m_Center: {x: -57.614975, y: 31.937927, z: -20.626509}
+  m_Size: {x: 3.3617706, y: 3.2330017, z: 9.244925}
+  m_Center: {x: -57.614975, y: 31.788841, z: -20.498333}
 --- !u!64 &4643387631090408659
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -172,4 +172,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 53ba036343420114ba4235151c3af5d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  thisCollider: {fileID: 1014589747064347933}

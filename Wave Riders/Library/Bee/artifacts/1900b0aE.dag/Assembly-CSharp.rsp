@@ -379,6 +379,7 @@
 "Assets/Scripts/Level/Level3.cs"
 "Assets/Scripts/Level/Level4.cs"
 "Assets/Scripts/Level/Level5.cs"
+"Assets/Scripts/LevelGate.cs"
 "Assets/Scripts/LevelSpawner.cs"
 "Assets/Scripts/Obstacles/Barricade.cs"
 "Assets/Scripts/Obstacles/Laser.cs"
