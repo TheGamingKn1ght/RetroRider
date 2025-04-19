@@ -144,6 +144,8 @@ public class PlayerController : MonoBehaviour, IChannel
         DeactivateMovement();
 
         rb.constraints -= RigidbodyConstraints.None;
+
+        Destroy(this.transform.Find("Collider").gameObject);
     }
 
     public void ActivateMovement()
