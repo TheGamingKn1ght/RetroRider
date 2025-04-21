@@ -104,6 +104,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3985813966659699031}
   - component: {fileID: -2150994278074132688}
+  - component: {fileID: 6008059585451189854}
   m_Layer: 0
   m_Name: Bitcoin3D
   m_TagString: Collectible
@@ -121,8 +122,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.6269341, y: 0.6269341, z: 0.6269341}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1159030931340478093}
   - {fileID: 2060636525061578049}
@@ -151,6 +152,18 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 5.330023, y: 5.531639, z: 1.7604871}
   m_Center: {x: 1.2475395, y: 8.372902, z: -1.1135914}
+--- !u!114 &6008059585451189854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4331235802881891309}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ea182dcc5f961d40823c7ecdeeded6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5658185385831528108
 GameObject:
   m_ObjectHideFlags: 0

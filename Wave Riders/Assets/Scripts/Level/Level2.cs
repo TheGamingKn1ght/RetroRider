@@ -6,6 +6,7 @@ public class Level2 : Level
 {
     [SerializeField] private GameObject copLeft;
     [SerializeField] private GameObject copRight;
+    [SerializeField] private List<GameObject> CoinGroups;
 
     [SerializeField] private GameObject Jump;
     [SerializeField] private GameObject Shield;
@@ -43,6 +44,29 @@ public class Level2 : Level
         else if (powerUpInt == 2)
         {
             Shield.SetActive(true);
+        }
+
+        PlaceCoins(carInt, powerUpInt);
+    }
+
+    public override void PlaceCoins(int obsInt, int puInt)
+    {
+        System.Random rand = new System.Random();
+        int coinInt = rand.Next(0, 2);
+
+        if (obsInt == 1 && coinInt == 1)
+        {
+            CoinGroups[1].SetActive(true);
+        }
+
+        if (obsInt == 0)
+        {
+            CoinGroups[0].SetActive(true);
+        }
+
+        if(puInt == 0)
+        {
+            CoinGroups[2].SetActive(true);
         }
     }
 }
