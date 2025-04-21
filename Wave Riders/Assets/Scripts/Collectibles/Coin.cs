@@ -14,12 +14,10 @@ public class Coin : MonoBehaviour, ICollectible
 
     void Update()
     {
-
         if (this.CompareTag("Collectible"))
         {
             this.transform.Rotate(Vector3.up);
         }
-
     }
 
     public void Collect()
