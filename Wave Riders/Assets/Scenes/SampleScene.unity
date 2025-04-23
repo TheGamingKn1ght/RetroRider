@@ -4706,6 +4706,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 8370108076410420968, guid: d71e6a574af15b54eb26d17c40cea2fb, type: 3}
+      propertyPath: lerpSpeed
+      value: 0.03
+      objectReference: {fileID: 0}
+    - target: {fileID: 8370108076410420968, guid: d71e6a574af15b54eb26d17c40cea2fb, type: 3}
       propertyPath: FollowTarget
       value: 
       objectReference: {fileID: 2033429400}

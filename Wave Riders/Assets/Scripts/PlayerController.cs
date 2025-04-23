@@ -67,9 +67,8 @@ public class PlayerController : MonoBehaviour, IChannel
         Vector3 movement = orientationCam.transform.forward * moveSpeed * GetTimeMultiplier() * boostMultiplier;
         movement.y = rb.velocity.y;
         rb.velocity = movement;
-        
 
-
+        Debug.Log(GetTimeMultiplier());
         float tempF = Mathf.Lerp(rb.position.x, playerPos.x, lerpSpeed);
         rb.position = new Vector3(tempF, rb.position.y, rb.position.z);
     }
@@ -85,9 +84,34 @@ public class PlayerController : MonoBehaviour, IChannel
     private float GetTimeMultiplier()
     {
         float result;
-        result = time / 10;
-         
-        if(result < 1) { return 1; }
+        if (time < 45)
+        {
+            result = time / 10;
+            if (result < 1)
+            {
+                return 1;
+            }
+        }
+        else
+        {
+            if (time < 65)
+            {
+                result = 2.25f + time / 20;
+                lerpSpeed = 0.035f;
+            }
+            else
+            {
+                result = 3.33f + time / 30;
+                lerpSpeed = 0.04f;
+            }
+        }
+
+        if (result > 7)
+        {
+            lerpSpeed = 0.05f;
+            return 7;
+        }
+
         return result;
     }
     private float CalculateTimePassed()
@@ -134,8 +158,6 @@ public class PlayerController : MonoBehaviour, IChannel
             JumpBar.Singleton.AddPower(-100);
         }
     }
-
-
 
     private void Death()
     {

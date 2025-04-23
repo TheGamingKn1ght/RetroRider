@@ -34,8 +34,6 @@ public class Level5 : Level
 
         int powerUpInt = rand.Next(0, 3);
 
-        Debug.Log(powerUpInt);
-
         if (powerUpInt == 1)
         {
             Jump.SetActive(true);

@@ -53,13 +53,11 @@ public class Level1 : Level
             CoinGroups[0].SetActive(true);
             if (coinInt == 0)
             {
-                Debug.Log("Option 1");
                 CoinGroups[1].SetActive(true);
                 CoinGroups[2].SetActive(true);
             }
             else if (coinInt == 1)
             {
-                Debug.Log("Option 2");
                 CoinGroups[4].SetActive(true);
             }
         }
@@ -67,13 +65,11 @@ public class Level1 : Level
         {
             if (coinInt == 0)
             {
-                Debug.Log("Option 3");
                 CoinGroups[3].SetActive(true);
                 CoinGroups[2].SetActive(true);
             }
             else if (coinInt == 1)
             {
-                Debug.Log("Option 4");
                 CoinGroups[4].SetActive(true);
             }
         }
