@@ -74,6 +74,7 @@
     <Compile Include="Assets\Scripts\LevelGate.cs" />
     <Compile Include="Assets\Scripts\Level\Level4.cs" />
     <Compile Include="Assets\Scripts\Level\Level1.cs" />
+    <Compile Include="Assets\Scripts\Obstacles\Puddle.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
     <Compile Include="Assets\Scripts\HealthSystem.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />

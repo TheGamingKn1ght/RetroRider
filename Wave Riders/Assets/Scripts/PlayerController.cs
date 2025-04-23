@@ -14,6 +14,7 @@ public class PlayerController : MonoBehaviour, IChannel
     [SerializeField] public Transform orientationCam;
     [SerializeField] public GameObject FollowTarget;
     public float boostMultiplier = 1f;
+    public float puddleMultiplier = 1f;
 
     [SerializeField] private float lerpSpeed = 0.5f;
     [SerializeField] public int moveSpeed = 2;
@@ -64,7 +65,7 @@ public class PlayerController : MonoBehaviour, IChannel
         //Get player position and lock it horizontally to the map
         CalculateTimePassed();
 
-        Vector3 movement = orientationCam.transform.forward * moveSpeed * GetTimeMultiplier() * boostMultiplier;
+        Vector3 movement = orientationCam.transform.forward * moveSpeed * GetTimeMultiplier() * boostMultiplier * puddleMultiplier;
         movement.y = rb.velocity.y;
         rb.velocity = movement;
 

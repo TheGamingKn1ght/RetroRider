@@ -10,15 +10,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: e82cd89f8b2dc7848a911705c5ee4ec9, type: 3}
       propertyPath: m_LocalScale.x
-      value: 100
+      value: 125
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e82cd89f8b2dc7848a911705c5ee4ec9, type: 3}
       propertyPath: m_LocalScale.y
-      value: 100
+      value: 125
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e82cd89f8b2dc7848a911705c5ee4ec9, type: 3}
       propertyPath: m_LocalScale.z
-      value: 100
+      value: 125
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e82cd89f8b2dc7848a911705c5ee4ec9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -64,6 +64,14 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -4929363789341574723, guid: e82cd89f8b2dc7848a911705c5ee4ec9, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2d5b98ca3bbad5a45acf4d530a3774da, type: 2}
+    - target: {fileID: -4780072770720950627, guid: e82cd89f8b2dc7848a911705c5ee4ec9, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 06fac5dd1da9efa4480309f59f966abe, type: 2}
     - target: {fileID: 919132149155446097, guid: e82cd89f8b2dc7848a911705c5ee4ec9, type: 3}
       propertyPath: m_Name
       value: BarricadeEmissive
