@@ -51,6 +51,7 @@ public class JumpBar : MonoBehaviour
 
         if(Power >= 100)
         {
+            Power = 100;
             barFull = true;
         }
         else

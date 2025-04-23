@@ -22,6 +22,7 @@ public class PlayerController : MonoBehaviour, IChannel
     float time;
 
     [SerializeField] public List<GameObject> DamageableObjects = new List<GameObject>();
+    [SerializeField] private GameObject Explosions;
 
     #region Singleton
     public static PlayerController Singleton;
@@ -169,6 +170,9 @@ public class PlayerController : MonoBehaviour, IChannel
         rb.constraints -= RigidbodyConstraints.None;
 
         Destroy(this.transform.Find("Collider").gameObject);
+
+        Explosions.SetActive(true);
+        
     }
 
     public void ActivateMovement()

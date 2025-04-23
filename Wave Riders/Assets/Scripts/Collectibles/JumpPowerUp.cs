@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class JumpPowerUp : MonoBehaviour, ICollectible
 {
+    [SerializeField] private GameObject Explosion;
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
@@ -24,8 +25,12 @@ public class JumpPowerUp : MonoBehaviour, ICollectible
 
     public void Collect()
     {
+        Transform coords = this.gameObject.transform;
+        coords.position = new Vector3(coords.position.x, coords.position.y, coords.position.z);
+        
         JumpBar.Singleton.AddPower(25);
-        AudioManager.instance.PlaySFX("JumpPickUp");
+        AudioManager.instance.PlaySFX("PickUpExplosion");
+        Instantiate(Explosion,coords.position,coords.rotation);
         Destroy(this.gameObject);
     }
 

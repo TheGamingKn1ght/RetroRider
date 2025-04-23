@@ -5,6 +5,18 @@ using TMPro;
 
 public class ShieldPowerUp : MonoBehaviour,ICollectible
 {
+    private List<GameObject> ShieldMeshUnits = new List<GameObject>();
+
+    private void Start()
+    {
+        int children = transform.childCount;
+
+        for(int i = 0; i <= transform.childCount; i++)
+        {
+            ShieldMeshUnits.Add(this.transform.GetChild(i).gameObject);
+        }
+    }
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
@@ -26,6 +38,9 @@ public class ShieldPowerUp : MonoBehaviour,ICollectible
     {
         HUD.powerupNum++;
         AudioManager.instance.PlaySFX("ShieldPickUp");
-        Destroy(this.gameObject);
+        foreach(var child in ShieldMeshUnits)
+        {
+            child.SetActive(!child.activeSelf);
+        }
     }
 }

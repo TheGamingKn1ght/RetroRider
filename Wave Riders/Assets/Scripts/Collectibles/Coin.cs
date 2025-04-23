@@ -23,7 +23,7 @@ public class Coin : MonoBehaviour, ICollectible
     public void Collect()
     {
         
-        AudioManager.instance.PlaySFX("JumpPickUp");
+        AudioManager.instance.PlaySFX("CoinPickUp");
         Destroy(this.gameObject);
     }
 }
