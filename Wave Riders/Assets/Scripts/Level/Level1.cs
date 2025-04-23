@@ -22,7 +22,7 @@ public class Level1 : Level
     {
         System.Random rand = new System.Random();
         int obsInt = rand.Next(0, 2);
-        int powerUpInt = rand.Next(0, 4);
+        int powerUpInt = rand.Next(0, 5);
 
         if (obsInt == 1)
         {
