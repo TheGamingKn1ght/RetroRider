@@ -21,6 +21,12 @@ public class UIManager : MonoBehaviour
     }
     #endregion
 
+    private void Start()
+    {
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
+    }
+
     public void PauseGame()
     {
         Time.timeScale = 0f;
