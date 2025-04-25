@@ -16,7 +16,6 @@ public class AddRbConstraint : StateMachineBehaviour
         if(PlayerController.Singleton.rb.position.y <= -5)
         {
             PlayerController.Singleton.rb.constraints = PlayerController.OGconstraints;
-            animator.SetBool("JumpFinished", true);
         }
 
     }

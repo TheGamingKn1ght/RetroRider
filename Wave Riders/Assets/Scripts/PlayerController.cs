@@ -70,7 +70,7 @@ public class PlayerController : MonoBehaviour, IChannel
         movement.y = rb.velocity.y;
         rb.velocity = movement;
 
-        Debug.Log(GetTimeMultiplier());
+        //Debug.Log(GetTimeMultiplier());
         float tempF = Mathf.Lerp(rb.position.x, playerPos.x, lerpSpeed);
         rb.position = new Vector3(tempF, rb.position.y, rb.position.z);
     }
