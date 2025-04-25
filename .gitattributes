@@ -1,1 +1,2 @@
 Wave[[:space:]]Riders/Library/PackageCache/com.unity.burst@1.8.8/.Runtime/libburst-llvm-15.dylib filter=lfs diff=lfs merge=lfs -text
+Wave[[:space:]]Riders/Library/PlayerDataCache/Win64/Data/sharedassets1.assets.resS filter=lfs diff=lfs merge=lfs -text
