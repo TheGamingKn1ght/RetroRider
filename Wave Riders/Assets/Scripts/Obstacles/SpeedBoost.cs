@@ -17,15 +17,18 @@ public class SpeedBoost : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player") && other.GetComponentInParent<PlayerController>().powerActive == false)
+        if (other.CompareTag("Player") && PlayerController.Singleton.powerActive == false)
         {
-            PlayerController playerController = other.GetComponentInParent<PlayerController>();
+            PlayerController playerController = PlayerController.Singleton;
             Debug.Log("Boosted");
             playerController.powerActive = true;
             playerCollider = other;
-            Vector3 playerForward = other.GetComponentInParent<PlayerController>().orientationCam.transform.forward;
-            OriginalPlayerForwardVelocity = other.GetComponentInParent<Rigidbody>().velocity;
+            Vector3 playerForward = PlayerController.Singleton.orientationCam.transform.forward;
+            OriginalPlayerForwardVelocity = PlayerController.Singleton.rb.velocity;
             playerController.boostMultiplier = boostPercent;
+
+            //deparent it from the level
+            this.transform.parent = null;
 
             AudioManager.instance.PlaySFX("SpeedBoost");
             
@@ -40,5 +43,6 @@ public class SpeedBoost : MonoBehaviour
         playerController.boostMultiplier = 1f;
         playerController.powerActive = false; 
         Debug.Log("Boost Ended");
+        Destroy(this.gameObject);
     }
 }
