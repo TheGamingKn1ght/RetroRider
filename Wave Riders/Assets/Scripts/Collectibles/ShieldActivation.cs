@@ -16,15 +16,10 @@ public class ShieldActivation : MonoBehaviour
         InputManager.OnShieldInput -= ActivateShield;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 
     public void ActivateShield()
     {
-        if(HUD.powerupNum > 0)
+        if(HUD.powerupNum > 0 && this.GetComponent<PlayerController>().powerActive == false)
         {
             this.GetComponent<PlayerController>().powerActive = true;
             HUD.powerupNum--;
