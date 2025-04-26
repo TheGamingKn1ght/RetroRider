@@ -22,8 +22,8 @@ public class Coin : MonoBehaviour, ICollectible
 
     public void Collect()
     {
-        
         AudioManager.instance.PlaySFX("CoinPickUp");
+        HUD.coinNum++;
         Destroy(this.gameObject);
     }
 }

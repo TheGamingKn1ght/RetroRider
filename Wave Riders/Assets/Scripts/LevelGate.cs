@@ -10,6 +10,7 @@ public class LevelGate : MonoBehaviour
         {
             LevelSpawner.gateCount++;
             LevelSpawner.previousLevels.Add(this.GetComponentInParent<Level>().gameObject);
+            ScoreCounter.Singleton.AddToScore(5);
 
             if (LevelSpawner.gateCount % 2 == 0)
             {

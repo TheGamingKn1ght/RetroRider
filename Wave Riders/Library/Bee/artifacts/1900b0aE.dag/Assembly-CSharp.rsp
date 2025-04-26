@@ -415,6 +415,7 @@
 "Assets/Scripts/PlayerController.cs"
 "Assets/Scripts/Scene Manager/PauseMenu.cs"
 "Assets/Scripts/Scene Manager/SceneSwitcher.cs"
+"Assets/Scripts/ScoreCounter.cs"
 "Assets/Scripts/Sound.cs"
 "Assets/Scripts/UIManager.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"

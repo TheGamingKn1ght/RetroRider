@@ -90,6 +90,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
     <Compile Include="Assets\Scripts\Level\Level2.cs" />
     <Compile Include="Assets\GabrielAguiarProductions\Scripts\FPSShooterTut.cs" />
+    <Compile Include="Assets\Scripts\ScoreCounter.cs" />
     <Compile Include="Assets\Scripts\LevelSpawner.cs" />
     <Compile Include="Assets\Scripts\Interfaces\DamageHandler.cs" />
     <Compile Include="Assets\Scripts\DamageManager\DamageManager4.cs" />

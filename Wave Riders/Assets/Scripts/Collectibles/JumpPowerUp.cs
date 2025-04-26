@@ -29,6 +29,7 @@ public class JumpPowerUp : MonoBehaviour, ICollectible
         coords.position = new Vector3(coords.position.x, coords.position.y, coords.position.z);
         
         JumpBar.Singleton.AddPower(25);
+        ScoreCounter.Singleton.AddToScore(10);
         AudioManager.instance.PlaySFX("PickUpExplosion");
         Instantiate(Explosion,coords.position,coords.rotation);
         Destroy(this.gameObject);

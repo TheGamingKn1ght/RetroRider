@@ -116,7 +116,7 @@ public class PlayerController : MonoBehaviour, IChannel
 
         return result;
     }
-    private float CalculateTimePassed()
+    public float CalculateTimePassed()
     {
         time = Time.time;
         return time;

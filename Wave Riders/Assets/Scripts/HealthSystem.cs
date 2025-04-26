@@ -47,7 +47,8 @@ public class HealthSystem : MonoBehaviour
     public void applyDamage(int damage)
     {
         health -= damage;
-        if(health <= 0)
+        ScoreCounter.Singleton.AddToScore(-15);
+        if (health <= 0)
         {
             health = 0;
         }

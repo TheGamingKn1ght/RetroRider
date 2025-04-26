@@ -24,6 +24,8 @@ public class ShieldActivation : MonoBehaviour
             this.GetComponent<PlayerController>().powerActive = true;
             HUD.powerupNum--;
 
+            ScoreCounter.Singleton.AddToScore(20);
+
             StartCoroutine(ShieldTimer(this.GetComponent<PlayerController>()));
         }
     }
