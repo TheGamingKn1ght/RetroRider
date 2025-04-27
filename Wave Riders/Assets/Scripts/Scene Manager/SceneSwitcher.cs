@@ -6,11 +6,16 @@ using UnityEngine.SceneManagement;
 public class SceneSwitcher : MonoBehaviour
 {
     [SerializeField] GameObject MenuCanvas;
+    [SerializeField] GameObject Backup;
+    public static GameObject menu;
+    public static GameObject backup;
 
     #region Singleton
     public static SceneSwitcher Singleton;
     public void Awake()
     {
+        menu = MenuCanvas;
+        backup = Backup;
         if (Singleton == null)
         {
             Singleton = this;
@@ -26,6 +31,7 @@ public class SceneSwitcher : MonoBehaviour
     {
         SceneManager.LoadScene(sceneIndex, LoadSceneMode.Single);
         MenuCanvas.SetActive(false);
+        Backup.SetActive(false);
     }
 
     public void Exit()

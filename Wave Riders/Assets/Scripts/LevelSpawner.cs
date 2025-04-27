@@ -7,7 +7,7 @@ public class LevelSpawner : MonoBehaviour
     [SerializeField] private Transform startPos;
     [SerializeField] private Level startLevel;
     [SerializeField] private List<Level> levels = new List<Level>();
-    public static int LvlLength = 20;
+    public static int LvlLength = 6;
 
     GameObject tempLVL;
     private Vector3 nextSpawn;

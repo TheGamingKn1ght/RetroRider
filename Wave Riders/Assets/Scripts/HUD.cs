@@ -13,29 +13,14 @@ public class HUD : MonoBehaviour, IChannel
     public static int powerupNum;
     public static int coinNum;
 
-    #region Singleton
-    public static HUD Singleton;
-
-    public void Awake()
-    {
-        if (Singleton == null)
-        {
-            Singleton = this;
-            DontDestroyOnLoad(this.gameObject);
-        }
-        else
-        {
-            Destroy(this.gameObject);
-        }
-    }
-    #endregion
-
     // Start is called before the first frame update
     void Start()
     {
         HealthSystem.Singleton.AddObserver(this);
         DamageEffect.alpha = 0;
         DeathEffect.alpha = 0;
+        powerupNum = 0;
+        coinNum = 0;
     }
 
     void Update()

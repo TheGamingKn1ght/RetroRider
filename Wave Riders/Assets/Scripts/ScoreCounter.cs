@@ -5,7 +5,7 @@ using TMPro;
 
 public class ScoreCounter : MonoBehaviour
 {
-    [SerializeField] private GameObject SpawnPoint;
+    [SerializeField] private Transform SpawnPoint;
 
     private float score;
 
@@ -36,7 +36,7 @@ public class ScoreCounter : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        score = Mathf.RoundToInt((PlayerController.Singleton.transform.Find("Collider").transform.position.z - SpawnPoint.transform.position.z) + HUD.coinNum);
+        score = Mathf.RoundToInt((PlayerController.Singleton.transform.Find("Collider").transform.position.z - SpawnPoint.position.z) + HUD.coinNum);
         
 
         this.GetComponent<TMP_Text>().text = score.ToString();

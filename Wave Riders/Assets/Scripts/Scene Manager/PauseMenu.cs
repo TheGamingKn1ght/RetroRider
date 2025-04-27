@@ -43,7 +43,14 @@ public class PauseMenu : MonoBehaviour
     {
         pauseCanvas.SetActive(false);
         Time.timeScale = 1f;
+        SceneManager.UnloadSceneAsync(1);
         SceneManager.LoadScene(sceneIndex, LoadSceneMode.Single);
+        if(sceneIndex == 1) { UIManager.RestartGame(); }
+        if (sceneIndex == 0)
+        { 
+            SceneSwitcher.menu.SetActive(true);
+            SceneSwitcher.backup.SetActive(true);
+        }
     }
 
     public void Quit()

@@ -4,16 +4,21 @@ using UnityEngine;
 
 public class UIManager : MonoBehaviour
 {
+    [SerializeField] private GameObject hud;
+    private static GameObject uiHUD;
+
     private void Start()
     {
+        uiHUD = hud;
         Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
+        Cursor.visible = false; 
+        AudioManager.instance.RestartMusic("Main");
     }
 
     public static void PauseGame()
     {
         Time.timeScale = 0f;
-        HUD.Singleton.gameObject.SetActive(false);
+        uiHUD.gameObject.SetActive(false);
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
         AudioManager.instance.PauseMusic(true);
@@ -22,9 +27,18 @@ public class UIManager : MonoBehaviour
     public static void ResumeGame()
     {
         Time.timeScale = 1f;
-        HUD.Singleton.gameObject.SetActive(true);
+        uiHUD.SetActive(true);
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
         AudioManager.instance.PauseMusic(false);
+    }
+
+    public static void RestartGame()
+    {
+        Time.timeScale = 1f;
+        uiHUD.SetActive(true);
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
+        //AudioManager.instance.RestartMusic("Main");
     }
 }
