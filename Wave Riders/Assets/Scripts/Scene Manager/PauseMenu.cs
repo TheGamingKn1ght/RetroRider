@@ -29,12 +29,12 @@ public class PauseMenu : MonoBehaviour
 
         if (pauseCanvas.activeSelf)
         {
-            UIManager.Singleton.PauseGame();
+            UIManager.PauseGame();
             player.DeactivateMovement();
         }
         else
         {
-            UIManager.Singleton.ResumeGame();
+            UIManager.ResumeGame();
             player.ActivateMovement();
         }
     }
@@ -43,7 +43,7 @@ public class PauseMenu : MonoBehaviour
     {
         pauseCanvas.SetActive(false);
         Time.timeScale = 1f;
-        SceneManager.LoadScene(sceneIndex);
+        SceneManager.LoadScene(sceneIndex, LoadSceneMode.Single);
     }
 
     public void Quit()

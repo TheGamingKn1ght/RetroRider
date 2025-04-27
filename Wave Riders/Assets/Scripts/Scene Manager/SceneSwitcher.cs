@@ -24,7 +24,7 @@ public class SceneSwitcher : MonoBehaviour
     #endregion
     public void PlayGame(int sceneIndex)
     {
-        SceneManager.LoadSceneAsync(sceneIndex);
+        SceneManager.LoadScene(sceneIndex, LoadSceneMode.Single);
         MenuCanvas.SetActive(false);
     }
 

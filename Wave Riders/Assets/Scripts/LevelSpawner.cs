@@ -4,24 +4,6 @@ using UnityEngine;
 
 public class LevelSpawner : MonoBehaviour
 {
-    #region Singleton
-    public static LevelSpawner Singleton;
-    
-    public void Awake()
-    {
-        nextSpawn = startPos.position;
-        if (Singleton == null)
-        {
-            Singleton = this;
-            DontDestroyOnLoad(this.gameObject);
-        }
-        else
-        {
-            Destroy(this.gameObject);
-        }
-    }
-    #endregion
-
     [SerializeField] private Transform startPos;
     [SerializeField] private Level startLevel;
     [SerializeField] private List<Level> levels = new List<Level>();
@@ -41,6 +23,7 @@ public class LevelSpawner : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        nextSpawn = startPos.position;
         tempLVL = Instantiate(startLevel.gameObject,startPos);
         blockLength = tempLVL.GetComponent<Level>().StartCoords.position - tempLVL.GetComponent<Level>().EndCoords.position;
 
