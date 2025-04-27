@@ -73,6 +73,15 @@ public class PlayerController : MonoBehaviour, IChannel
         //Debug.Log(GetTimeMultiplier());
         float tempF = Mathf.Lerp(rb.position.x, playerPos.x, lerpSpeed);
         rb.position = new Vector3(tempF, rb.position.y, rb.position.z);
+
+        if(powerActive) 
+        { 
+            this.transform.Find("Shield").gameObject.SetActive(true); 
+        }
+        else
+        {
+            this.transform.Find("Shield").gameObject.SetActive(false);
+        }
     }
 
     public void Updates(int health)
