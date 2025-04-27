@@ -82,8 +82,8 @@ BoxCollider:
   m_ProvidesContacts: 1
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 4.6329823, y: 2.8723726, z: 9.903442}
-  m_Center: {x: 0.23762226, y: -1.3928418, z: 3.2322998}
+  m_Size: {x: 4.4581146, y: 2.8723726, z: 9.902931}
+  m_Center: {x: 0.22082329, y: -1.3928418, z: 3.2320442}
 --- !u!1001 &75507855560422478
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -527,10 +527,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c51f663c4fef9144aa3c2667d0c632b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boostActive: 0
+  rb: {fileID: 0}
+  powerActive: 0
   orientationCam: {fileID: 0}
   FollowTarget: {fileID: 0}
   boostMultiplier: 1
+  puddleMultiplier: 1
   lerpSpeed: 0.03
   moveSpeed: 10
   jumpMultiplier: 15
@@ -542,6 +544,7 @@ MonoBehaviour:
   - {fileID: 5012579315064890965}
   - {fileID: 8994535195114311256}
   - {fileID: 1031471034158210441}
+  Explosions: {fileID: 0}
 --- !u!114 &4597418946484094655
 MonoBehaviour:
   m_ObjectHideFlags: 0
