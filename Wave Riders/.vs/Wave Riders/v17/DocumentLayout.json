@@ -1,33 +1,33 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\College\\Semester 6 - Winter 2025\\Info Systems\\RetroRider\\Wave Riders\\",
+  "WorkspaceRootPath": "C:\\Users\\Adelh\\OneDrive\\Bureau\\RetroGame\\info-sys-and-proj-methodologies-II-project-retro-riders-labs\\Wave Riders\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{15D93DB2-8C39-83E1-AC6F-B840E664EAB4}|Assembly-CSharp.csproj|D:\\College\\Semester 6 - Winter 2025\\Info Systems\\RetroRider\\Wave Riders\\assets\\scripts\\scene manager\\pausemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{15D93DB2-8C39-83E1-AC6F-B840E664EAB4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scene manager\\pausemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{15D93DB2-8C39-83E1-AC6F-B840E664EAB4}|Assembly-CSharp.csproj|d:\\college\\semester 6 - winter 2025\\info systems\\retrorider\\wave riders\\assets\\scripts\\obstacles\\barricade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{15D93DB2-8C39-83E1-AC6F-B840E664EAB4}|Assembly-CSharp.csproj|c:\\users\\adelh\\onedrive\\bureau\\retrogame\\info-sys-and-proj-methodologies-ii-project-retro-riders-labs\\wave riders\\assets\\scripts\\obstacles\\barricade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{15D93DB2-8C39-83E1-AC6F-B840E664EAB4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\obstacles\\barricade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{15D93DB2-8C39-83E1-AC6F-B840E664EAB4}|Assembly-CSharp.csproj|D:\\College\\Semester 6 - Winter 2025\\Info Systems\\RetroRider\\Wave Riders\\assets\\scripts\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{15D93DB2-8C39-83E1-AC6F-B840E664EAB4}|Assembly-CSharp.csproj|C:\\Users\\Adelh\\OneDrive\\Bureau\\RetroGame\\info-sys-and-proj-methodologies-II-project-retro-riders-labs\\Wave Riders\\assets\\scripts\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{15D93DB2-8C39-83E1-AC6F-B840E664EAB4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{15D93DB2-8C39-83E1-AC6F-B840E664EAB4}|Assembly-CSharp.csproj|D:\\College\\Semester 6 - Winter 2025\\Info Systems\\RetroRider\\Wave Riders\\assets\\scripts\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{15D93DB2-8C39-83E1-AC6F-B840E664EAB4}|Assembly-CSharp.csproj|C:\\Users\\Adelh\\OneDrive\\Bureau\\RetroGame\\info-sys-and-proj-methodologies-II-project-retro-riders-labs\\Wave Riders\\assets\\scripts\\scene manager\\pausemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15D93DB2-8C39-83E1-AC6F-B840E664EAB4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scene manager\\pausemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15D93DB2-8C39-83E1-AC6F-B840E664EAB4}|Assembly-CSharp.csproj|C:\\Users\\Adelh\\OneDrive\\Bureau\\RetroGame\\info-sys-and-proj-methodologies-II-project-retro-riders-labs\\Wave Riders\\assets\\scripts\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{15D93DB2-8C39-83E1-AC6F-B840E664EAB4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{15D93DB2-8C39-83E1-AC6F-B840E664EAB4}|Assembly-CSharp.csproj|D:\\College\\Semester 6 - Winter 2025\\Info Systems\\RetroRider\\Wave Riders\\assets\\scripts\\obstacles\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{15D93DB2-8C39-83E1-AC6F-B840E664EAB4}|Assembly-CSharp.csproj|C:\\Users\\Adelh\\OneDrive\\Bureau\\RetroGame\\info-sys-and-proj-methodologies-II-project-retro-riders-labs\\Wave Riders\\assets\\scripts\\obstacles\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{15D93DB2-8C39-83E1-AC6F-B840E664EAB4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\obstacles\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{15D93DB2-8C39-83E1-AC6F-B840E664EAB4}|Assembly-CSharp.csproj|D:\\College\\Semester 6 - Winter 2025\\Info Systems\\RetroRider\\Wave Riders\\assets\\scripts\\obstacles\\laser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{15D93DB2-8C39-83E1-AC6F-B840E664EAB4}|Assembly-CSharp.csproj|C:\\Users\\Adelh\\OneDrive\\Bureau\\RetroGame\\info-sys-and-proj-methodologies-II-project-retro-riders-labs\\Wave Riders\\assets\\scripts\\obstacles\\laser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{15D93DB2-8C39-83E1-AC6F-B840E664EAB4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\obstacles\\laser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{15D93DB2-8C39-83E1-AC6F-B840E664EAB4}|Assembly-CSharp.csproj|D:\\College\\Semester 6 - Winter 2025\\Info Systems\\RetroRider\\Wave Riders\\assets\\scripts\\sound.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{15D93DB2-8C39-83E1-AC6F-B840E664EAB4}|Assembly-CSharp.csproj|C:\\Users\\Adelh\\OneDrive\\Bureau\\RetroGame\\info-sys-and-proj-methodologies-II-project-retro-riders-labs\\Wave Riders\\assets\\scripts\\sound.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{15D93DB2-8C39-83E1-AC6F-B840E664EAB4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\sound.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -38,28 +38,40 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Barricade.cs",
-              "DocumentMoniker": "D:\\College\\Semester 6 - Winter 2025\\Info Systems\\RetroRider\\Wave Riders\\Assets\\Scripts\\Obstacles\\Barricade.cs",
+              "DocumentMoniker": "C:\\Users\\Adelh\\OneDrive\\Bureau\\RetroGame\\info-sys-and-proj-methodologies-II-project-retro-riders-labs\\Wave Riders\\Assets\\Scripts\\Obstacles\\Barricade.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Obstacles\\Barricade.cs",
-              "ToolTip": "D:\\College\\Semester 6 - Winter 2025\\Info Systems\\RetroRider\\Wave Riders\\Assets\\Scripts\\Obstacles\\Barricade.cs",
+              "ToolTip": "C:\\Users\\Adelh\\OneDrive\\Bureau\\RetroGame\\info-sys-and-proj-methodologies-II-project-retro-riders-labs\\Wave Riders\\Assets\\Scripts\\Obstacles\\Barricade.cs",
               "RelativeToolTip": "Assets\\Scripts\\Obstacles\\Barricade.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAZAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-18T20:34:57.509Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "UIManager.cs",
-              "DocumentMoniker": "D:\\College\\Semester 6 - Winter 2025\\Info Systems\\RetroRider\\Wave Riders\\Assets\\Scripts\\UIManager.cs",
+              "DocumentMoniker": "C:\\Users\\Adelh\\OneDrive\\Bureau\\RetroGame\\info-sys-and-proj-methodologies-II-project-retro-riders-labs\\Wave Riders\\Assets\\Scripts\\UIManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UIManager.cs",
-              "ToolTip": "D:\\College\\Semester 6 - Winter 2025\\Info Systems\\RetroRider\\Wave Riders\\Assets\\Scripts\\UIManager.cs",
+              "ToolTip": "C:\\Users\\Adelh\\OneDrive\\Bureau\\RetroGame\\info-sys-and-proj-methodologies-II-project-retro-riders-labs\\Wave Riders\\Assets\\Scripts\\UIManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\UIManager.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -67,24 +79,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "PauseMenu.cs",
-              "DocumentMoniker": "D:\\College\\Semester 6 - Winter 2025\\Info Systems\\RetroRider\\Wave Riders\\Assets\\Scripts\\Scene Manager\\PauseMenu.cs",
+              "DocumentMoniker": "C:\\Users\\Adelh\\OneDrive\\Bureau\\RetroGame\\info-sys-and-proj-methodologies-II-project-retro-riders-labs\\Wave Riders\\Assets\\Scripts\\Scene Manager\\PauseMenu.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Scene Manager\\PauseMenu.cs",
-              "ToolTip": "D:\\College\\Semester 6 - Winter 2025\\Info Systems\\RetroRider\\Wave Riders\\Assets\\Scripts\\Scene Manager\\PauseMenu.cs",
+              "ToolTip": "C:\\Users\\Adelh\\OneDrive\\Bureau\\RetroGame\\info-sys-and-proj-methodologies-II-project-retro-riders-labs\\Wave Riders\\Assets\\Scripts\\Scene Manager\\PauseMenu.cs",
               "RelativeToolTip": "Assets\\Scripts\\Scene Manager\\PauseMenu.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAqwB8AAAAiAAAAAAAAAA==",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB8AAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T19:46:09.506Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-18T19:46:09.506Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Vehicle.cs",
-              "DocumentMoniker": "D:\\College\\Semester 6 - Winter 2025\\Info Systems\\RetroRider\\Wave Riders\\Assets\\Scripts\\Obstacles\\Vehicle.cs",
+              "DocumentMoniker": "C:\\Users\\Adelh\\OneDrive\\Bureau\\RetroGame\\info-sys-and-proj-methodologies-II-project-retro-riders-labs\\Wave Riders\\Assets\\Scripts\\Obstacles\\Vehicle.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Obstacles\\Vehicle.cs",
-              "ToolTip": "D:\\College\\Semester 6 - Winter 2025\\Info Systems\\RetroRider\\Wave Riders\\Assets\\Scripts\\Obstacles\\Vehicle.cs",
+              "ToolTip": "C:\\Users\\Adelh\\OneDrive\\Bureau\\RetroGame\\info-sys-and-proj-methodologies-II-project-retro-riders-labs\\Wave Riders\\Assets\\Scripts\\Obstacles\\Vehicle.cs",
               "RelativeToolTip": "Assets\\Scripts\\Obstacles\\Vehicle.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -94,9 +105,9 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "Laser.cs",
-              "DocumentMoniker": "D:\\College\\Semester 6 - Winter 2025\\Info Systems\\RetroRider\\Wave Riders\\Assets\\Scripts\\Obstacles\\Laser.cs",
+              "DocumentMoniker": "C:\\Users\\Adelh\\OneDrive\\Bureau\\RetroGame\\info-sys-and-proj-methodologies-II-project-retro-riders-labs\\Wave Riders\\Assets\\Scripts\\Obstacles\\Laser.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Obstacles\\Laser.cs",
-              "ToolTip": "D:\\College\\Semester 6 - Winter 2025\\Info Systems\\RetroRider\\Wave Riders\\Assets\\Scripts\\Obstacles\\Laser.cs",
+              "ToolTip": "C:\\Users\\Adelh\\OneDrive\\Bureau\\RetroGame\\info-sys-and-proj-methodologies-II-project-retro-riders-labs\\Wave Riders\\Assets\\Scripts\\Obstacles\\Laser.cs",
               "RelativeToolTip": "Assets\\Scripts\\Obstacles\\Laser.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -106,9 +117,9 @@
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "Sound.cs",
-              "DocumentMoniker": "D:\\College\\Semester 6 - Winter 2025\\Info Systems\\RetroRider\\Wave Riders\\Assets\\Scripts\\Sound.cs",
+              "DocumentMoniker": "C:\\Users\\Adelh\\OneDrive\\Bureau\\RetroGame\\info-sys-and-proj-methodologies-II-project-retro-riders-labs\\Wave Riders\\Assets\\Scripts\\Sound.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Sound.cs",
-              "ToolTip": "D:\\College\\Semester 6 - Winter 2025\\Info Systems\\RetroRider\\Wave Riders\\Assets\\Scripts\\Sound.cs",
+              "ToolTip": "C:\\Users\\Adelh\\OneDrive\\Bureau\\RetroGame\\info-sys-and-proj-methodologies-II-project-retro-riders-labs\\Wave Riders\\Assets\\Scripts\\Sound.cs",
               "RelativeToolTip": "Assets\\Scripts\\Sound.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -118,9 +129,9 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "AudioManager.cs",
-              "DocumentMoniker": "D:\\College\\Semester 6 - Winter 2025\\Info Systems\\RetroRider\\Wave Riders\\Assets\\Scripts\\AudioManager.cs",
+              "DocumentMoniker": "C:\\Users\\Adelh\\OneDrive\\Bureau\\RetroGame\\info-sys-and-proj-methodologies-II-project-retro-riders-labs\\Wave Riders\\Assets\\Scripts\\AudioManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\AudioManager.cs",
-              "ToolTip": "D:\\College\\Semester 6 - Winter 2025\\Info Systems\\RetroRider\\Wave Riders\\Assets\\Scripts\\AudioManager.cs",
+              "ToolTip": "C:\\Users\\Adelh\\OneDrive\\Bureau\\RetroGame\\info-sys-and-proj-methodologies-II-project-retro-riders-labs\\Wave Riders\\Assets\\Scripts\\AudioManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\AudioManager.cs",
               "ViewState": "AQIAABcAAAAAAAAAAAAcwCoAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
