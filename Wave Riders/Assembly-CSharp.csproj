@@ -107,6 +107,7 @@
     <Compile Include="Assets\Scripts\Obstacles\Barricade.cs" />
     <Compile Include="Assets\Scripts\Collectibles\ShieldPowerUp.cs" />
     <Compile Include="Assets\Scripts\JumpBar.cs" />
+    <Compile Include="Assets\Scripts\Respawn.cs" />
     <Compile Include="Assets\Scripts\Level\Level1.cs" />
     <Compile Include="Assets\Scripts\Interfaces\ICollectible.cs" />
     <Compile Include="Assets\Scripts\DamageManager\DamageManager1.cs" />

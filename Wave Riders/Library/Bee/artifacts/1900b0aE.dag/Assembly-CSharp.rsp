@@ -413,6 +413,7 @@
 "Assets/Scripts/Obstacles/SpeedBoost.cs"
 "Assets/Scripts/Obstacles/Vehicle.cs"
 "Assets/Scripts/PlayerController.cs"
+"Assets/Scripts/Respawn.cs"
 "Assets/Scripts/Scene Manager/PauseMenu.cs"
 "Assets/Scripts/Scene Manager/SceneSwitcher.cs"
 "Assets/Scripts/ScoreCounter.cs"

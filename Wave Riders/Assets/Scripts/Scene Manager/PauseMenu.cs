@@ -10,12 +10,12 @@ public class PauseMenu : MonoBehaviour
     [SerializeField] private PlayerController player;
     private void OnEnable()
     {
-        InputManager.OnPauseInput += Pause;
+        ActivatePausing();
     }
 
     private void OnDisable()
     {
-        InputManager.OnPauseInput -= Pause;
+        DeactivatePausing();
     }
 
     private void Start()
@@ -56,5 +56,15 @@ public class PauseMenu : MonoBehaviour
     public void Quit()
     {
         Application.Quit();
+    }
+
+    public void ActivatePausing()
+    {
+        InputManager.OnPauseInput += Pause;
+    }
+
+    public void DeactivatePausing()
+    {
+        InputManager.OnPauseInput -= Pause;
     }
 }

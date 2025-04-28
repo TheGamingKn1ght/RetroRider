@@ -24,6 +24,9 @@ public class PlayerController : MonoBehaviour, IChannel
     [SerializeField] public List<GameObject> DamageableObjects = new List<GameObject>();
     [SerializeField] private GameObject Explosions;
 
+    [SerializeField] private GameObject DeathScreen;
+    [SerializeField] private PauseMenu pauseMenu;
+
     #region Singleton
     public static PlayerController Singleton;
 
@@ -181,7 +184,11 @@ public class PlayerController : MonoBehaviour, IChannel
         Destroy(this.transform.Find("Collider").gameObject);
 
         Explosions.SetActive(true);
-        
+
+        DeathScreen.gameObject.SetActive(true);
+        pauseMenu.DeactivatePausing();
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
     }
 
     public void ActivateMovement()
